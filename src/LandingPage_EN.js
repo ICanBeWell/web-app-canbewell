@@ -10,9 +10,7 @@ import callfren from "./assets/Logos/canbewellfren.png";
 import { Link, withRouter } from "react-router-dom";
 import { Row, Col } from "react-bootstrap";
 import Homescreeneng from "./Homescreeneng";
-// Css classses
 import "./LandingPage.css";
-
 // banner slider component file
 import BannerSlider from "./components/bannerSlider";
 class LandingPageEN extends React.Component {
@@ -87,7 +85,10 @@ class LandingPageEN extends React.Component {
               </Row>
             </section>
 
-            <BannerSlider language = {'english'} handleChange={this.handleChange} />
+            <BannerSlider
+              language={"english"}
+              handleChange={this.handleChange}
+            />
 
             <section className="landing-button">
               <a href="#">
@@ -105,7 +106,7 @@ class LandingPageEN extends React.Component {
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="en-reliable-resource-statement"
               >
-                  We provide resources to improve your well-being 
+                We provide resources to improve your well-being
               </div>
 
               <div className="flex_btn">
@@ -119,7 +120,7 @@ class LandingPageEN extends React.Component {
                 </a>
                 <button
                   type="button"
-                  className="btn btn-lg btn_started ml-10 btn_alginment container_button"
+                  className="container_button btn-lg btn_started ml-10 btn_alginment"
                   onClick={() => this.props.setOpenDialog(true)}
                   test-id="homeScreenButtonEn"
                 >
@@ -129,10 +130,7 @@ class LandingPageEN extends React.Component {
 
               <div className="pad_15">
                 <a
-                  // href="#"
-                  type="button"
-                  className="btn btn_new btn-lg btn_alginment container_button1"
-                  // onClick={this.handleChange}
+                  className="link"
                   href="/iCanBeWell_NoFamilyMD_NP.htm"
                   rel="noopener"
                   test-id="nofamilymd/np-statement-en"
@@ -142,8 +140,7 @@ class LandingPageEN extends React.Component {
               </div>
               <div className="pad_15">
                 <a
-                  type="button"
-                  className="btn  btn_new btn-lg btn_alginment container_button1"
+                  className="link"
                   href="/iCanBeWell_CheckYourSymptoms.htm"
                   rel="noopener"
                   test-id="nofamilymd/np-statement-en"

@@ -140,7 +140,7 @@ class LandingPageFR extends React.Component {
                 </a>
                 <button
                   type="button"
-                  className="btn btn-lg btn_started ml-10 btn_alginment container_button"
+                  className="container_button btn-lg btn_started ml-10 btn_alginment "
                   onClick={() => this.props.setOpenDialog(true)}
                   test-id="homeScreenButtonEn"
                 >
