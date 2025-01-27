@@ -13,6 +13,9 @@ import Homescreeneng from "./Homescreeneng";
 import "./LandingPage.css";
 // banner slider component file
 import BannerSlider from "./components/bannerSlider";
+import { Divider } from "@material-ui/core";
+import PlayArrowIcon from "@material-ui/icons/PlayArrow";
+
 class LandingPageEN extends React.Component {
   constructor(props) {
     super(props);
@@ -73,7 +76,6 @@ class LandingPageEN extends React.Component {
                   />
                 </Col>
                 <Col className="d-flex justify-content-end">
-                  {/* <Link to="fr" className="landing-french-router">Français</Link> */}
                   <a
                     href="/fr"
                     className="font-description"
@@ -84,29 +86,16 @@ class LandingPageEN extends React.Component {
                 </Col>
               </Row>
             </section>
-
             <BannerSlider
               language={"english"}
               handleChange={this.handleChange}
             />
-
-            <section className="landing-button">
-              <a href="#">
-                <img
-                  className="landing-button-img"
-                  src={calleng}
-                  onClick={this.handleChange}
-                  test-id="en-redirect-button"
-                />
-              </a>
-            </section>
-
             <section className="primary-background res-blue-width res-blue-height-en py-3 d-flex flex-column justify-content-center ht_450">
               <div
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="en-reliable-resource-statement"
               >
-                We provide resources to improve your well-being
+                DISCOVER RESOURCES FOR WELL-BEING AND PREVENTION
               </div>
 
               <div className="flex_btn">
@@ -116,40 +105,56 @@ class LandingPageEN extends React.Component {
                   className="btn btn-primary-get-started btn-lg btn_started btn_alginment"
                   onClick={this.handleChange}
                 >
-                  <b>Get Started</b>
-                </a>
-                <button
-                  type="button"
-                  className="container_button btn-lg btn_started ml-10 btn_alginment"
-                  onClick={() => this.props.setOpenDialog(true)}
-                  test-id="homeScreenButtonEn"
-                >
-                  <b>Install App</b>
-                </button>
-              </div>
-
-              <div className="pad_15">
-                <a
-                  className="link"
-                  href="/iCanBeWell_NoFamilyMD_NP.htm"
-                  rel="noopener"
-                  test-id="nofamilymd/np-statement-en"
-                >
-                  <b>No Family MD/NP?</b>
-                </a>
-              </div>
-              <div className="pad_15">
-                <a
-                  className="link"
-                  href="/iCanBeWell_CheckYourSymptoms.htm"
-                  rel="noopener"
-                  test-id="nofamilymd/np-statement-en"
-                >
-                  <b>Check Your Symptoms</b>
+                  <b>START EXPLORING</b>
                 </a>
               </div>
             </section>
 
+            <div className="link-container">
+              <h3>Quick Links:</h3>
+              <section className="intro-page-links d-flex flex-column flex-start">
+                <div className="pad_15">
+                  <a className="link" rel="noopener">
+                    <PlayArrowIcon fontSize="large" />
+                    <p>See How the App Works</p>
+                  </a>
+                </div>
+                <div className="pad_15">
+                  <a
+                    className="link"
+                    href="/iCanBeWell_CheckYourSymptoms.htm"
+                    rel="noopener"
+                  >
+                    <PlayArrowIcon fontSize="large" />
+                    <p>Resources to Check Your Symptoms</p>
+                  </a>
+                </div>
+                <div className="pad_15">
+                  <a
+                    className="link"
+                    href="/iCanBeWell_NoFamilyMD_NP.htm"
+                    rel="noopener"
+                  >
+                    <PlayArrowIcon fontSize="large" />
+                    <p>Explore Your Primary Care Options</p>
+                  </a>
+                </div>
+                <div className="pad_15 container_button">
+                  <a
+                    className="link"
+                    rel="noopener"
+                    onClick={() => this.props.setOpenDialog(true)}
+                  >
+                    <PlayArrowIcon fontSize="large" />
+                    <p>
+                      Add <b>'icanbewell'</b> to Your Home Screen
+                    </p>
+                  </a>
+                </div>
+              </section>
+            </div>
+
+            <Divider className="main-page-divider" />
             <section id="landing-page-footer">
               <Row className="d-flex justify-content-center align-items-center m-0 py-3">
                 <Col
