@@ -1,0 +1,50 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - test
+      # Uncomment for production deployment
+      # - prod
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: "yarn"
+
+      - name: Install Yarn and Firebase Tools
+        run: |
+          curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+          export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+          yarn global add firebase-tools
+
+      - name: Prepare JSON Folder
+        run: |
+          rm -rf ./src/JSONFolder
+          mkdir ./src/JSONFolder
+          curl -L -o ./src/JSONFolder/HtmlTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=ERg-cg6mFjBFqOkJ7wNzRGkBr8mnyWkgDyZAP7VF2jhc1g&e=fL37dK"
+          curl -L -o ./src/JSONFolder/HtmlTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EcBQBFId59tGswGyAheMXc4BF765HWtS0Z0NfC7p8g-zIQ&e=jQGgSJ"
+          curl -L -o ./src/JSONFolder/HtmlTest-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EWKQZlkx4DxDpfn2ItP9oSgBc_suTzKuXgbx1BZloe-_BA&e=vLIJEv"
+          curl -L -o ./src/JSONFolder/HtmlTest-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXpjJ8Xc8BNInwG4FyBCcosBfjjJw801nYjqgausCkNuLQ&e=hfXFKu"
+          curl -L -o ./src/JSONFolder/FilterTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=ER_xjWsW8BdCie_Y4kFBdCQBU60tDIe4frkPj__C6HDsJQ&e=NbVPQS"
+          curl -L -o ./src/JSONFolder/FilterTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXCfclAD3ztNnB5zDrw3sngBs381yLU_cgYdN2gaWa0MOw&e=MYcIBm"
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Build Project
+        run: CI=false yarn build
+
+      - name: Deploy to Firebase
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
+        run: bash scripts/deploy.sh

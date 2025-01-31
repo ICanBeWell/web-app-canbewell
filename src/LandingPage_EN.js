@@ -85,6 +85,7 @@ class LandingPageEN extends React.Component {
                   </a>
                 </Col>
               </Row>
+              
             </section>
             <BannerSlider
               language={"english"}
