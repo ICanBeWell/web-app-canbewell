@@ -122,7 +122,12 @@ class LandingPageFR extends React.Component {
               <h3>Quick Links:</h3>
               <section className="intro-page-links d-flex flex-column flex-start">
                 <div className="pad_15">
-                  <a className="link" rel="noopener">
+                  <a
+                    className="link"
+                    rel="noopener"
+                    href={videofr}
+                    target="_blank"
+                  >
                     <PlayArrowIcon fontSize="large" />
                     <p>Découvrez comment fonctionne l'application</p>
                   </a>
@@ -174,12 +179,12 @@ class LandingPageFR extends React.Component {
                   className="d-flex justify-content-center align-items-center footer-text mx-0"
                 >
                   <a
-                    className="text-center font-weight-bold col_grey"
-                    href={videofr}
-                    target="_blank"
-                    test-id="update-banner-en-video"
+                    href="iCanBeWell_AboutUs.htm?lang=fr"
+                    rel="noopener noreferrer"
+                    test-id="aboutus-statement-fr"
+                    className="text-center col_grey"
                   >
-                    Voir vidéo
+                    À propos de nous
                   </a>
                   <span className="mx-3"> &#124; </span>
                   <a
@@ -192,12 +197,12 @@ class LandingPageFR extends React.Component {
                   </a>
                   <span className="mx-3"> &#124; </span>
                   <a
-                    href="iCanBeWell_AboutUs.htm?lang=fr"
+                    href="https://www.uottawa.ca/faculte-medecine/familiale/choix-sante"
                     rel="noopener noreferrer"
-                    test-id="aboutus-statement-fr"
                     className="text-center col_grey"
+                    target="_blank"
                   >
-                    À propos de nous
+                    Contactez-nous
                   </a>
                 </Col>
               </Row>

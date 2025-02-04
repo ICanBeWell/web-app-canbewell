@@ -85,7 +85,6 @@ class LandingPageEN extends React.Component {
                   </a>
                 </Col>
               </Row>
-              
             </section>
             <BannerSlider
               language={"english"}
@@ -115,7 +114,12 @@ class LandingPageEN extends React.Component {
               <h3>Quick Links:</h3>
               <section className="intro-page-links d-flex flex-column flex-start">
                 <div className="pad_15">
-                  <a className="link" rel="noopener">
+                  <a
+                    className="link"
+                    rel="noopener"
+                    href={videoen}
+                    target="_blank"
+                  >
                     <PlayArrowIcon fontSize="large" />
                     <p>See How the App Works</p>
                   </a>
@@ -165,12 +169,12 @@ class LandingPageEN extends React.Component {
                   className="d-flex justify-content-center align-items-center footer-text mx-0"
                 >
                   <a
-                    className="text-center font-weight-bold col_grey"
-                    href={videoen}
-                    target="_blank"
-                    test-id="update-banner-en-video"
+                    href="/iCanBeWell_AboutUs.htm"
+                    rel="noopener"
+                    test-id="aboutus-statement-en"
+                    className="text-center col_grey"
                   >
-                    Watch Demo
+                    About Us
                   </a>
                   <span className="mx-3"> &#124; </span>
                   <a
@@ -183,12 +187,12 @@ class LandingPageEN extends React.Component {
                   </a>
                   <span className="mx-3"> &#124; </span>
                   <a
-                    href="/iCanBeWell_AboutUs.htm"
                     rel="noopener"
-                    test-id="aboutus-statement-en"
+                    href="https://www.uottawa.ca/faculty-medicine/family/icanbewell-app"
                     className="text-center col_grey"
+                    target="_blank"
                   >
-                    About Us
+                    Contact Us
                   </a>
                   {/* <span className="mx-3"> &#124; </span>
                                 <a
