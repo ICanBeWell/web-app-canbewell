@@ -654,6 +654,7 @@ class App extends Component {
     };
     const termsOfUseText = {
       fontFamily: "Calibri Light, sans-serif",
+      textAlign: "justify",
     };
     const termsOfUseHead = {
       fontSize: "14pt",

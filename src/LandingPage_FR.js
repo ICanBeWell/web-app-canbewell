@@ -119,7 +119,6 @@ class LandingPageFR extends React.Component {
             </section>
 
             <div className="link-container">
-              <h3>Quick Links:</h3>
               <section className="intro-page-links d-flex flex-column flex-start">
                 <div className="pad_15">
                   <a
@@ -164,7 +163,7 @@ class LandingPageFR extends React.Component {
                     onClick={() => this.props.setOpenDialog(true)}
                   >
                     <PlayArrowIcon fontSize="large" />
-                    <p>Ajoutez «icanbewell» à votre écran d'accueil</p>
+                    <p>Ajoutez à votre écran d'accueil</p>
                   </a>
                 </div>
               </section>

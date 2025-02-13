@@ -95,7 +95,7 @@ class LandingPageEN extends React.Component {
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="en-reliable-resource-statement"
               >
-                DISCOVER RESOURCES FOR WELL-BEING AND PREVENTION
+                DISCOVER <span className = "red-canadian">CANADIAN</span> RESOURCES FOR WELL-BEING AND PREVENTION
               </div>
 
               <div className="flex_btn">
@@ -111,7 +111,6 @@ class LandingPageEN extends React.Component {
             </section>
 
             <div className="link-container">
-              <h3>Quick Links:</h3>
               <section className="intro-page-links d-flex flex-column flex-start">
                 <div className="pad_15">
                   <a
@@ -152,7 +151,7 @@ class LandingPageEN extends React.Component {
                   >
                     <PlayArrowIcon fontSize="large" />
                     <p>
-                      Add <b>'icanbewell'</b> to Your Home Screen
+                      Add to Your Home Screen
                     </p>
                   </a>
                 </div>
