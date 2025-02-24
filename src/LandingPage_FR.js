@@ -98,12 +98,12 @@ class LandingPageFR extends React.Component {
 
             <BannerSlider handleChange={this.handleChange2} />
 
-            <section className="primary-background res-blue-width res-blue-height-en py-3 d-flex flex-column justify-content-center ht_450">
+            <section className="primary-background res-blue-width res-blue-height-en py-3 d-flex flex-column justify-content-center">
               <div
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="fr-reliable-resource-statement"
               >
-                DÉCOUVREZ LES RESSOURCES POUR LE BIEN-ÊTRE ET LA PRÉVENTION
+                VOS RESSOURCES POUR LE BIEN-ÊTRE ET LA PRÉVENTION
               </div>
 
               <div className="flex_btn">
@@ -113,7 +113,7 @@ class LandingPageFR extends React.Component {
                   className="btn btn-primary-get-started btn-lg btn_started btn_alginment"
                   onClick={this.handleChange2}
                 >
-                  <b>COMMENCEZ À EXPLORER</b>
+                  <b>EXPLORER</b>
                 </a>
               </div>
             </section>
@@ -128,7 +128,7 @@ class LandingPageFR extends React.Component {
                     target="_blank"
                   >
                     <PlayArrowIcon fontSize="large" />
-                    <p>Découvrez comment fonctionne l'application</p>
+                    <p>Comment utiliser choixsante.ca</p>
                   </a>
                 </div>
 
@@ -140,7 +140,7 @@ class LandingPageFR extends React.Component {
                     rel="noopener"
                   >
                     <PlayArrowIcon fontSize="large" />
-                    <p>Ressources pour vérifier vos symptômes</p>
+                    <p>Vérifier vos symptômes</p>
                   </a>
                 </div>
 
@@ -152,7 +152,10 @@ class LandingPageFR extends React.Component {
                     rel="noopener"
                   >
                     <PlayArrowIcon fontSize="large" />
-                    <p>Explorez vos options de soins primaires</p>
+                    <p>
+                      Conseils si vous n’avez pas de médecin de famille ou
+                      infirmière praticienne
+                    </p>
                   </a>
                 </div>
 
@@ -170,7 +173,7 @@ class LandingPageFR extends React.Component {
             </div>
             <Divider className="main-page-divider" />
             <section id="landing-page-footer">
-              <Row className="d-flex justify-content-center align-items-center m-0 py-3">
+              <Row className="d-flex justify-content-center align-items-center m-0">
                 <Col
                   xs={{ order: 1, span: 12 }}
                   sm={{ order: 1, span: 8 }}

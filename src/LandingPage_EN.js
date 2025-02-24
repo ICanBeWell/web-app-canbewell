@@ -90,12 +90,12 @@ class LandingPageEN extends React.Component {
               language={"english"}
               handleChange={this.handleChange}
             />
-            <section className="primary-background res-blue-width res-blue-height-en py-3 d-flex flex-column justify-content-center ht_450">
+            <section className="primary-background res-blue-width res-blue-height-en py-3 d-flex flex-column justify-content-center">
               <div
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="en-reliable-resource-statement"
               >
-                DISCOVER <span className = "red-canadian">CANADIAN</span> RESOURCES FOR WELL-BEING AND PREVENTION
+                DISCOVER RESOURCES FOR WELL-BEING AND PREVENTION
               </div>
 
               <div className="flex_btn">
@@ -140,7 +140,7 @@ class LandingPageEN extends React.Component {
                     rel="noopener"
                   >
                     <PlayArrowIcon fontSize="large" />
-                    <p>Explore Your Primary Care Options</p>
+                    <p>No Family Doctor or Nurse Practitioner? </p>
                   </a>
                 </div>
                 <div className="pad_15 container_button">
@@ -160,7 +160,7 @@ class LandingPageEN extends React.Component {
 
             <Divider className="main-page-divider" />
             <section id="landing-page-footer">
-              <Row className="d-flex justify-content-center align-items-center m-0 py-3">
+              <Row className="d-flex justify-content-center align-items-center m-0">
                 <Col
                   xs={{ order: 1, span: 12 }}
                   sm={{ order: 1, span: 8 }}
@@ -193,15 +193,6 @@ class LandingPageEN extends React.Component {
                   >
                     Contact Us
                   </a>
-                  {/* <span className="mx-3"> &#124; </span>
-                                <a
-                                    href="/iCanBeWell_NoFamilyMD_NP.htm"
-                                    rel="noopener"
-                                    test-id="nofamilymd/np-statement-en"
-                                    className="text-center"
-                                >
-                                    No Family MD/NP
-                                </a> */}
                 </Col>
               </Row>
               <div className="d-flex justify-content-center my-2">
