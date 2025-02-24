@@ -223,7 +223,7 @@
     "Button": "Breast",
     "Topic heading": "Breast Cancer",
     "Subject": "Screening for breast cancer-Canada",
-    "General Patient Text": "•(<If you have breast symptoms>) (pain, lump, discharge or other [[breast cancer symtoms; https://cancer.ca/en/cancer-information/cancer-types/breast/signs-and-symptoms]]) see your health professional as soon as possible.\r\n\r\n•(<If you have no symptoms>) or [[risks;  http://www.cancer.ca/en/cancer-information/cancer-type/breast/risks/?region=on]] you may qualify for a screening mammogram ( a mammogram that is not for symptoms, but is for  a healthy person):\r\n-(<40 to 49 years old>): \r\nDiscuss with your primary care provider the pros and cons of screening or visit your provincial or territorial website for breast screening (see [[list; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]).More information below.\r\n\r\n-(<50 to 74 years old>): \r\nMammograms are recommended every 2 years.[[List of screening programs across Canada; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]\r\n\r\n(<If you do not have a primary care provider>)\r\nIn most areas you can phone 811 and find where to get a mammogram.\r\n\r\nDifferent points of view on screening ages 40 to 49:\r\n•[[Canadian Task Force recommendation; https://canadiantaskforce.ca/wp-content/uploads/2024/05/BCU_Draft-Rec_Discussion-tool_40-49_FINAL.pdf]]\r\n•Articles on benefits: \r\n -[[Age of breast cancer onset is decreasing; https://journals.sagepub.com/doi/full/10.1177/08465371241246422]]\r\n-[[Approaches of different provinces; https://ascopubs.org/doi/full/10.1200/JCO.23.00348]]\r\n\r\n\r\n\r\n",
+    "General Patient Text": "•(<If you have breast symptoms>) (pain, lump, discharge or other [[breast cancer symtoms; https://cancer.ca/en/cancer-information/cancer-types/breast/signs-and-symptoms]]) see your health professional as soon as possible.\r\n\r\n•(<If you have no symptoms>) or [[risks;  http://www.cancer.ca/en/cancer-information/cancer-type/breast/risks/?region=on]] you may qualify for a screening mammogram ( a mammogram that is not for symptoms, but is for  a healthy person):\r\n-(<40 to 49 years old>): \r\nDiscuss with your primary care provider the pros and cons of screening or visit your provincial or territorial website for breast screening (see [[list; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]).More information below.\r\n\r\n-(<50 to 74 years old>): \r\nMammograms are recommended every 2 years.[[List of screening programs across Canada; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]\r\n\r\n(<If you do not have a primary care provider>)\r\nIn most areas you can phone 811 and find where to get a mammogram.\r\n\r\n\r\n\r\n\r\n",
     "Health Provider Text": "n/a",
     "Gender": "f",
     "Minimum age": 18,
@@ -262,9 +262,29 @@
   {
     "Button": "Breast/Chest",
     "Topic heading": "Breast Cancer",
-    "Subject": "Information ",
-    "General Patient Text": "•        If you have taken estrogen for 5 years or more and have breasts, you need regular screening mammograms depending on your age.\r\n•        The recommendation is for you to have a mammogram every 2 years from age 50 to 74, in some provinces from age 40 to 74. Click on this  [[list; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]] for your province or territory.\r\n\r\n",
+    "Subject": "Prevent Breast Cancer",
+    "General Patient Text": "Find advice on preventing breast cancer by the [[Canadian Cancer Society; https://cancer.ca/en/cancer-information/cancer-types/breast/risks/reducing-your-risk]]",
+    "Health Provider Text": "n/a",
+    "Gender": "tf",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Breast/Chest",
+    "Topic heading": "Breast Cancer",
+    "Subject": "Screening for breast cancer-Canada",
+    "General Patient Text": "• If you have taken estrogen for 5 years or more and have breasts, you need regular screening mammograms depending on your age.\r\n• The recommendation is for you to have a mammogram every 2 years from age 50 to 74, in some provinces from age 40 to 74. Click on this  [[list; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]] for your province or territory.\r\n• If you do not have a primary care provider:\r\nIn most areas of Canada you can phone 811 and find where to get a mammogram.\r\n\r\n",
     "Health Provider Text": "•\tTrans women and people on the transfeminine spectrum who are on feminizing hormone therapy for 5 years or more should undergo breast cancer screening as per current guidelines for cis women.\r\n•\tThe current recommendation is a mammogram every 2 years from age 50-74 or in some provinces 40-74. Click on this  [[list; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]] for your province or territory.\r\n•It is important to check with the facility doing the mammograms how they welcome gender diverse patients and how to indicate this on the requisition. This will help avoid difficult situations for the patient.\r\n• IF there are breast implants the technique for the mammogram is  different and may in some areas of Canada require a diagnostic mammography  ",
+    "Gender": "tf",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Breast/Chest",
+    "Topic heading": "Breast Cancer",
+    "Subject": "Screening for breast cancer-Ontario",
+    "General Patient Text": "• If you have taken estrogen for 5 years or more and have breasts, you need regular screening mammograms depending on your age.\r\n•For ages 40 to 74 screening mammograms are available. \r\n[[Information on the Ontario program; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening]]\r\n•To make an appointment:\r\n Call 1-800-668-9304 \r\nTo find a location and check wait times go to [[Ontario Health-Wait Times; https://www.ontariohealth.ca/public-reporting/wait-times]]",
+    "Health Provider Text": "• Trans women and people on the transfeminine spectrum who are on feminizing hormone therapy for 5 years or more should undergo breast cancer screening as per current guidelines for cis women.\r\n• Screening mammograms are available from ages 40 to 74 in Ontario\r\n[[Ontario Breast Screening Program Guidelines; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/breast-screening-recommendations-summary]]\r\n•It is important to check with the facility doing the mammograms how they welcome gender diverse patients and how to indicate this on the requisition. This will help avoid difficult situations for the patient.",
     "Gender": "tf",
     "Minimum age": 18,
     "Maximum age": 150
@@ -324,7 +344,7 @@
     "Topic heading": "Colorectal Cancer",
     "Subject": "Screening recommendations-Canada",
     "General Patient Text": "n/a",
-    "Health Provider Text": "Age 50-74:\r\n•\tFOBT or FIT (depending on province) every 2y or\r\n•\tFlexible sigmoidoscopy every 10 years\r\n•\tColonoscopy not recommended in Canada for low risk: 1/2000 risk of perforation, no evidence yet,ongoing RCTs\r\n[[Canadian task force 2016; https://canadiantaskforce.ca/guidelines/published-guidelines/colorectal-cancer/]]\r\n[[CFP article on when to stop screening; https://www.cfp.ca/content/cfp/65/8/543.full.pdf]]\r\nFOBT=Fecal occult blood test\r\nFIT= Fecal immunochemical test\r\n•\tColonoscopy recommended for high risk patients\r\nClick to see [[Canadian association of gastroenterology guideline 2018; https://www.cag-acg.org/images/publications/CAG_CPG_CRC_Screening_Aug2018.pdf]]",
+    "Health Provider Text": "Age 50-74:\r\n•\tFOBT or FIT (depending on province) every 2y or\r\n•\tFlexible sigmoidoscopy every 10 years\r\n•\tColonoscopy not recommended in Canada for low risk: 1/2000 risk of perforation, no evidence \r\n[[Canadian task force 2016; https://canadiantaskforce.ca/guidelines/published-guidelines/colorectal-cancer/]]\r\n[[CFP article on when to stop screening; https://www.cfp.ca/content/cfp/65/8/543.full.pdf]]\r\nFOBT=Fecal occult blood test\r\nFIT= Fecal immunochemical test\r\n•\tColonoscopy recommended for high risk patients\r\nClick to see [[Canadian association of gastroenterology guideline 2018; https://www.cag-acg.org/images/publications/CAG_CPG_CRC_Screening_Aug2018.pdf]]",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 74
@@ -334,7 +354,7 @@
     "Topic heading": "Colorectal Cancer",
     "Subject": "Screening recommendations-Ontario",
     "General Patient Text": "n/a",
-    "Health Provider Text": "[[Ontario Colorectal Cancer Screening Recommendations Summary; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/resources-healthcare-providers/colorectal-cancer-screening-summary]]",
+    "Health Provider Text": "•Ages 50 to 74\r\n•FIT test every 2years \r\nIF no symptoms or family history \r\n•Colonoscopy not recommended for average risk patients\r\n[[Ontario Colorectal Cancer Screening Recommendations Summary; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/resources-healthcare-providers/colorectal-cancer-screening-summary]]",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -453,8 +473,8 @@
     "Button": "Pancreas",
     "Topic heading": "Diabetes Type 2",
     "Subject": "Prevent Diabetes-Canada",
-    "General Patient Text": "•Eat a healthy diet: \r\n[[Diabetes Canada Eating Healthy Tips; https://www.diabetes.ca/nutrition-fitness/healthy-eating/healthy-eating-tips]]\r\n•\tBe physically active\r\n[[Diabetes Canada Physical Activity Tips; https://www.diabetes.ca/nutrition-fitness/exercise-activity]]\r\n•\tKeep your BMI healthy:18.5-24\r\n[[BMI; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator ]]\r\n[[Diabetes Canada Weight Management Tips; https://www.diabetes.ca/nutrition-fitness/weight-management]]\r\n\r\n• Take the [[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]] to see if you are at risk for diabetes.\r\n• Watch for [[symptoms of diabetes; https://www.diabetes.ca/about-diabetes/prediabetes/symptoms]]\r\n•Many provinces have Diabetes Prevention Programs or Diabetes Education Programs. These programs can offer coaching to help you change your lifestyle.\r\nYour province's or territory's 811 health website or phone line can help you find one.\r\n",
-    "Health Provider Text": "Recommend:\r\n• To take the  [[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]]\r\n• Healthy diet\r\n[[Diabetes Canada Eating Healthy Tips; https://www.diabetes.ca/nutrition-fitness/healthy-eating/healthy-eating-tips]]\r\n• Physical activity\r\n[[Diabetes Canada Physical Activity Tips; https://www.diabetes.ca/nutrition-fitness/exercise-activity]]\r\n• Healthy BMI: 18.5-24\r\n[[BMI; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator ]]\r\n[[Diabetes Canada Weight Management Tips; https://www.diabetes.ca/nutrition-fitness/weight-management]]\r\n• To watch for [[symptoms of diabetes; https://www.diabetes.ca/about-diabetes/prediabetes/symptoms]]\r\n\r\n•Many provinces have Diabetes Prevention Programs or Diabetes Education Programs. Refer your patient if appropriate.",
+    "General Patient Text": "•Eat a healthy diet: \r\n[[Diabetes Canada Eating Healthy Tips; https://www.diabetes.ca/nutrition-fitness/healthy-eating/healthy-eating-tips]]\r\n•\tBe physically active\r\n[[Diabetes Canada Physical Activity Tips; https://www.diabetes.ca/nutrition-fitness/exercise-activity]]\r\n•\tKeep your BMI healthy:18.5-24\r\n[[BMI; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator ]]\r\n[[Diabetes Canada Weight Management Tips; https://www.diabetes.ca/nutrition-fitness/weight-management]]\r\n\r\n• Take the [[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]] to see if you are at risk for diabetes.\r\n• Watch for [[symptoms of diabetes; https://www.diabetes.ca/about-diabetes/prediabetes/symptoms]]\r\n•Many provinces and territories have Diabetes Prevention Programs or Diabetes Education Programs. These programs can offer coaching to help you change your lifestyle.\r\nYour province's or territory's 811 health website or phone line can help you find one.\r\n",
+    "Health Provider Text": "Recommend:\r\n• To take the  [[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]]\r\n• Healthy diet\r\n[[Diabetes Canada Eating Healthy Tips; https://www.diabetes.ca/nutrition-fitness/healthy-eating/healthy-eating-tips]]\r\n• Physical activity\r\n[[Diabetes Canada Physical Activity Tips; https://www.diabetes.ca/nutrition-fitness/exercise-activity]]\r\n• Healthy BMI: 18.5-24\r\n[[BMI; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator ]]\r\n[[Diabetes Canada Weight Management Tips; https://www.diabetes.ca/nutrition-fitness/weight-management]]\r\n• To watch for [[symptoms of diabetes; https://www.diabetes.ca/about-diabetes/prediabetes/symptoms]]\r\n\r\n•Many provinces and territories have Diabetes Prevention Programs or Diabetes Education Programs. Refer your patient if appropriate.",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -463,7 +483,7 @@
     "Button": "Pancreas",
     "Topic heading": "Diabetes Type 2",
     "Subject": "Prevent Diabetes-Ontario",
-    "General Patient Text": "• See if you are at risk for diabetes: \r\n[[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]]\r\n• The [[Indigenous Diabetes Health Circle; https://idhc.life/about-our-organization/]] supports diabetes prevention in Indigenous communities in Ontario\r\n•Advice to recognize diabetes symptoms and decrease your risk here: [[Toronto Public Health Diabetes Prevention Tips; https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/diabetes-prevention/]]\r\n•Diabetes Education Programs are available in Ontario, phone 811 or live chat at [[health811; https://health811.ontario.ca/static/guest/home]]\r\n•[[Diabetes Canada information on preventing diabetes; https://www.diabetes.ca/type-2-risks/preventing-diabetes]]",
+    "General Patient Text": "• (<See if you are at risk for diabetes:>)\r\n[[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]]\r\n• (<Recognize diabetes symptoms>)\r\n and decrease your risk here: [[Toronto Public Health Diabetes Prevention Tips; https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/diabetes-prevention/]]\r\n•(<Diabetes Education Programs >) \r\nare available in Ontario, with coaching to help you prevent diabetes: phone 811 or live chat at [[health811; https://health811.ontario.ca/static/guest/home]]\r\n• (<Indigenous communities>):\r\n The [[Indigenous Diabetes Health Circle; https://idhc.life/about-our-organization/]] supports diabetes prevention in in Ontario\r\n\r\n•[[Diabetes Canada information on preventing diabetes; https://www.diabetes.ca/type-2-risks/preventing-diabetes]]",
     "Health Provider Text": "Resources for patients:\r\n• See if you are at risk for diabetes: \r\n [[CANRISK questionnaire; https://www.healthycanadians.gc.ca/en/canrisk]]\r\n• The [[Indigenous Diabetes Health Circle; https://idhc.life/about-our-organization/]] supports diabetes prevention in Indigenous communities in Ontario\r\n•Advice to recognize diabetes symptoms and decrease your risk here: [[Toronto Public Health Diabetes Prevention Tips; https://www.toronto.ca/community-people/health-wellness-care/health-programs-advice/diabetes-prevention/]]\r\n•Diabetes Education Programs are available in Ontario, phone 811 or live chat at [[health811; https://health811.ontario.ca/static/guest/home]]\r\n•[[Diabetes Canada information on preventing diabetes; https://www.diabetes.ca/type-2-risks/preventing-diabetes]]\r\n",
     "Gender": "all",
     "Minimum age": 18,
@@ -473,7 +493,7 @@
     "Button": "Pancreas",
     "Topic heading": "Diabetes Type 2",
     "Subject": "Get a blood test for Diabetes if you are at risk",
-    "General Patient Text": "You can use a calculator to see if you need one:\r\n•\t[[calculator 1; https://diabetes.ca/about-diabetes/take-the-test]]\r\n•\t[[calculator2; https://canadiantaskforce.ca/tools-resources/type-2-diabetes-2/type-2-diabetes-patient-findrisc/]]",
+    "General Patient Text": "You can use a calculator to see if you need one:\r\n•\t[[CANRISK questionnaire; https://diabetes.ca/about-diabetes/take-the-test]]\r\n",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,
@@ -833,8 +853,17 @@
     "Button": "Lung",
     "Topic heading": "Lung",
     "Subject": "Smoking",
-    "General Patient Text": "Recommended to quit or reduce.\r\nGet help with websites, groups, phone lines in each province.\r\n[[More; http://www.smokershelpline.ca/]]",
-    "Health Provider Text": "n/a",
+    "General Patient Text": "Recommended to quit or reduce.\r\nGet help with websites, groups, phone lines.\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n\r\n",
+    "Health Provider Text": "Ask all patients about tobacco use.\r\nAdvise stopping or reducing.\r\nUse behavioral interventions.\r\nAs needed use approved pharmacotherapy to promote cessation.\r\n•\t[[USPSTF A (2013); https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions]]\r\n•\t[[video; https://www.youtube.com/watch?v=URiKA7CKtfc]]\r\n•Programs for patients:\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n",
+    "Gender": "all",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Topic heading": "lung",
+    "Subject": "Smoking-Ontario",
+    "General Patient Text": "Get help with websites, groups, phone lines.\r\nCall 811 or visit [[health811; https://health811.ontario.ca/static/guest/home]]\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n[[Indigenous Tobacco Program; https://tobaccowise.cancercareontario.ca/en]]",
+    "Health Provider Text": "Patients can:\r\nGet help with websites, groups, phone lines.\r\nCall 811 or visit [[health811; https://health811.ontario.ca/static/guest/home]]\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n[[Indigenous Tobacco Program; https://tobaccowise.cancercareontario.ca/en]]",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -858,16 +887,6 @@
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 74
-  },
-  {
-    "Button": "Lung",
-    "Topic heading": "Lung",
-    "Subject": "Smoking",
-    "General Patient Text": "n/a",
-    "Health Provider Text": "Ask all patients about tobacco use.\r\nAdvise stopping this.\r\nUse behavioral interventions.\r\nAs needed use approved pharmacotherapy to promote cessation.\r\n•\t[[USPSTF A (2013); https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions]]\r\n•\t[[video; https://www.youtube.com/watch?v=URiKA7CKtfc]]",
-    "Gender": "all",
-    "Minimum age": 18,
-    "Maximum age": 150
   },
   {
     "Button": "Brain",
@@ -1023,7 +1042,7 @@
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Get tested for Cervical Cancer- Ontario",
-    "General Patient Text": "\r\n•In March 2025 , Ontario will be shifting from Pap tests to HPV tests. \r\n•If the HPV test is negative and you don't have a weakened immune system, you need to repeat it in 5 years.\r\n\r\n• Who should get screened?\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]",
+    "General Patient Text": "\r\n•In March 2025 , Ontario shifts from Pap tests to HPV tests. \r\n•If the HPV test is negative and you don't have a weakened immune system, you need to repeat it in 5 years.\r\n\r\n• Who should get screened?\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]",
     "Gender": "f",
     "Minimum age": 18,
     "Maximum age": 74
@@ -1162,7 +1181,7 @@
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Screening for Cervical Cancer-Canada",
-    "General Patient Text": "•\tIf you have not had surgery to remove the uterus (including the [[cervix; https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cervix]]) , you need regular cervical cancer screening.\r\n•\tPap tests are recommended every 3 years from age 25-69 if you have ever been sexually active. Some provinces are doing HPV tests instead of Pap tests, check with your provincial program.\r\n\r\n•\t[[Overview of cervical cancer screening for trans men in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-cervical-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]\r\n",
+    "General Patient Text": "•\tIf you have not had surgery to remove the uterus (including the [[cervix; https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cervix]]) , you need regular cervical cancer screening.\r\n•\tPap tests or HPV tests (depending on your province or territory program) are recommended regularly from age 25-69 if you have ever been sexually active.\r\nCheck your local program [[here; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n• [[What is cervical cancer; http://www.cancer.ca/en/cancer-information/cancer-type/cervical/cervical-cancer/?region=on]]\r\n•Abbreviations:\r\nPap test: Papanicolaou test\r\nHPV test: Human papillomavirus\r\n\r\n•\t[[Overview of cervical cancer screening for trans men in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-cervical-cancer-screening/?region=on]]\r\n",
     "Health Provider Text": "Gender diverse people who still have a cervix should undergo cervical cancer screening as per current guidelines.\r\nPap tests, or HPV tests in certain provinces, are recommended from age 25-69 if the person has ever been sexually active.\r\n(<How to make the speculum exam easier>)\r\n• Topical 2% lidocaine jelly vaginally 10-30 min prior to the procedure (patient can buy at pharmacy in many provinces, kept behind the counter, need to ask)\r\n• The patient may want to bring someone for suport\r\n• Use a pediatric speculum, patient may want to insert themselves.\r\n\r\n(< Ensure to note the cytology requisition>) if the patient is/was on testosterone on as cervical atrophy can mimic dysplasia.\r\n\r\nOther tips:\r\n• A trial of vaginal estrogens for 1 week prior to the exam may be helpful (RHO, UCSF) but may cause gender dysphoria\r\n• Consider administering a low-dose lorazepam pre-procedurally if the patient is particularly anxious about the exam (RHO, UCSF).\r\n\r\n(<Resources>)\r\n•\t[[VIDEO: Do's and Dont's when performing  Paps with trans men; https://www.youtube.com/watch?v=KIfSjX1ZEU4]]\r\n•\t[[Tips on performing Pap tests for  trans men; https://www.rainbowhealthontario.ca/wp-content/uploads/2015/07/Tips_Paps_TransMen-1.jpg]]\r\n\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Gender": "tm",
     "Minimum age": 18,
@@ -1173,7 +1192,7 @@
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Screening for Cervical Cancer-Ontario",
     "General Patient Text": "•\tIf you have not had surgery to remove the uterus (including the [[cervix; https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cervix]]) , you need regular cervical cancer screening.\r\n\r\n•In March 2025 , Ontario is shifting from Pap tests to HPV tests. \r\n•If the HPV test is negative and you don't have a weakened immune system, you need to repeat it in 5 years.\r\n• Who should get screened? \r\n- anyone with a cervix, including gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]",
-    "Health Provider Text": "\r\n•In March 2025 , Ontario will be shifting from Pap tests to HPV tests. \r\n• If the HPV test is negative and the individual does not have a weakened immune system, repeat is in 5 years.\r\n• Who should get screened?\r\n-anyone with a cervix, including gender diverse people who have not had surgery where the cervix has been removed\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[Ontario HPV Implementation Resource Hub; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/hpv-hub]]\r\n•Patient handout: [[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]\r\n\"",
+    "Health Provider Text": "\r\n•In March 2025 , Ontario will be shifting from Pap tests to HPV tests. \r\n• If the HPV test is negative and the individual does not have a weakened immune system, repeat is in 5 years.\r\n• Who should get screened?\r\n-anyone with a cervix, including gender diverse people who have not had surgery where the cervix has been removed\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[Ontario HPV Implementation Resource Hub; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/hpv-hub]]\r\n•Patient handout: [[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]\r\n(<How to make the speculum exam easier>)\r\n• Topical 2% lidocaine jelly vaginally 10-30 min prior to the procedure (patient can buy at pharmacy in many provinces, kept behind the counter, need to ask)\r\n• The patient may want to bring someone for suport\r\n• Use a pediatric speculum, patient may want to insert themselves.\r\n\r\n",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1253,7 +1272,7 @@
     "Topic heading": "Vision",
     "Subject": "Screening for impaired vision",
     "General Patient Text": "n/a",
-    "Health Provider Text": "• CTFPHC does not recommend screening for impaired  vision in community dwelling adults 65 and over who do not have risk factors.\r\n[[CTFPHC 2018; https://canadiantaskforce.ca/wp-content/uploads/2020/04/CTFPHC_Impaired-Vision_Clinican-FAQ_Final.pdf]]\r\n\r\n• Canadian Ophthalmology Society 2007 consensus only recommendation:\r\nIf high risk more frequent screening advised than below.\r\nHigh risk: African American, high myopia,diabetes or hypertension.\r\n\r\n• 18-40 every 10 years\r\n• 41-55 every 5 years\r\n• 56-64 every 3 years\r\n• 65 and above every year\r\n\r\n[[Current guideline under review; https://c2-preview.prosites.com/187380/wy/docs/COSVisionScreeningCPGEng_Feb07.pdf]]",
+    "Health Provider Text": "• CTFPHC does not recommend screening for impaired  vision in community dwelling adults 65 and over who do not have risk factors.\r\n[[CTFPHC 2018; https://canadiantaskforce.ca/wp-content/uploads/2020/04/CTFPHC_Impaired-Vision_Clinican-FAQ_Final.pdf]]\r\n\r\n• Canadian Ophthalmology Society 2007 consensus only recommendation:\r\nIf high risk more frequent screening advised than below.\r\nHigh risk: African American, high myopia,diabetes or hypertension.\r\n\r\n• 18-40 every 10 years\r\n• 41-55 every 5 years\r\n• 56-64 every 3 years\r\n• 65 and above every year\r\n[[Current guideline under review; https://c2-preview.prosites.com/187380/wy/docs/COSVisionScreeningCPGEng_Feb07.pdf]]\r\n•Other resources (may not be evidence-based)\r\nThe following guidelines may be different than others, discuss with your provider:[[Eye exams guidelines from the Canada Association of Optometry; https://opto.ca/eye-health-library/eye-exam]]\r\n\r\nRefugee and Immigrants free vision services (and glasses) within the first year via the [[ Interim Federal Health Program; https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees/help-within-canada/health-care/interim-federal-health-program/coverage-summary.html]]\r\n\r\nFirst Nations and Inuit via the [[Non Insured Health Benefit program; https://www.sac-isc.gc.ca/eng/1574179499096/1574179544527]]\r\n\r\nOHIP coverage (only in Ontario, scroll to Optometry section): [[Ontario; https://www.ontario.ca/page/what-ohip-covers]]\r\nRAMQ Coverage [[Quebec; https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/optometric-services]]\r\n\r\n[[Resources for Sunglasses; https://www.canada.ca/en/health-canada/services/sun-safety/sunglasses.html]]\r\n\r\nTips for desk work from the CNIB (see Computer Vision Syndrome section)[[CNIB; https://www.cnib.ca/en/dry-eye?region=on]]\r\n",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1261,8 +1280,8 @@
   {
     "Button": "Eye",
     "Topic heading": "Vision",
-    "Subject": "Discuss with your primary care provider or see an optometrist",
-    "General Patient Text": "Some people have a higher risk of vision problems: for example people of african-american origin and those with diabetes or hypertension .\r\nDiscuss with your primary care provider if you need an eye exam or see an optometrist. ",
+    "Subject": "Protect your vision",
+    "General Patient Text": "Some people have a higher risk of vision problems: for example people of african-american origin and those with diabetes or hypertension .\r\nDiscuss with your primary care provider if you need an eye exam or see an optometrist. \r\nMore information:\r\nThe following guidelines may be different than others, discuss with your provider:[[Eye exams guidelines from the Canada Association of Optometry; https://opto.ca/eye-health-library/eye-exam]]\r\n\r\nRefugee and Immigrants free vision services (and glasses) within the first year via the [[ Interim Federal Health Program; https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees/help-within-canada/health-care/interim-federal-health-program/coverage-summary.html]]\r\n\r\nFirst Nations and Inuit via the [[Non Insured Health Benefit program; https://www.sac-isc.gc.ca/eng/1574179499096/1574179544527]]\r\n\r\nOHIP coverage (only in Ontario, scroll to Optometry section): [[Ontario; https://www.ontario.ca/page/what-ohip-covers]]\r\nRAMQ Coverage [[Quebec; https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/optometric-services]]\r\n\r\n[[Resources for Sunglasses; https://www.canada.ca/en/health-canada/services/sun-safety/sunglasses.html]]\r\n\r\nTips for desk work from the CNIB (see Computer Vision Syndrome section)[[CNIB; https://www.cnib.ca/en/dry-eye?region=on]]",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,

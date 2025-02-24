@@ -223,7 +223,7 @@
     "Button": "Breast",
     "Topic heading": "Cancer du sein",
     "Subject": "Prévenir le cancer du sein",
-    "General Patient Text": "\r\n• [[Réduire le  risque de cancer du sein; https://cancer.ca/fr/cancer-information/cancer-types/breast/risks/reducing-your-risk]]\r\n\r\n• Calculez votre risque de cancer du sein: \r\nInformations pour les résiddentes du\r\n-[[Québec; http://www.depistagesein.ca/outil-de-calcul-de-risque/]]\r\n-[[Ontario; https://www.mycanceriq.ca/Cancers/Breast]]\r\nOutil en anglais [[Outil IBIS;  https://ibis.ikonopedia.com/]]\r\nSi votre risque est plus que 15% consultez votre professionnel de la santé ou votre programme local de dépistage du cancer du sein.\r\n\r\n• Les âges pour les mammographies de dépistage changent dans certaines provinces ou territoires. Verifiez l' information ci-dessous \"Mammographies de dépistage\"\r\n",
+    "General Patient Text": "\r\n• [[Réduire le  risque de cancer du sein; https://cancer.ca/fr/cancer-information/cancer-types/breast/risks/reducing-your-risk]]\r\n\r\n• Calculez votre risque de cancer du sein: \r\nInformations pour les résidentes du\r\n-[[Québec; http://www.depistagesein.ca/outil-de-calcul-de-risque/]]\r\n-[[Ontario; https://www.mycanceriq.ca/Cancers/Breast]]\r\nOutil en anglais [[Outil IBIS;  https://ibis.ikonopedia.com/]]\r\nSi votre risque est plus que 15% consultez votre professionnel de la santé ou votre programme local de dépistage du cancer du sein.\r\n\r\n• Les âges pour les mammographies de dépistage changent dans certaines provinces ou territoires. Verifiez l' information ci-dessous \"Mammographies de dépistage\"\r\n",
     "Health Provider Text": "n/a",
     "Gender": "f",
     "Minimum age": 18,
@@ -232,17 +232,27 @@
   {
     "Button": "Breast",
     "Topic heading": "Cancer du sein",
-    "Subject": "Mammographies de dépistage\r\n",
-    "General Patient Text": "• (<Si vous avez des symptômes>) au niveau des seins (masse, douleur, écoulement ou autre [[symptôme de cancer du sein; https://cancer.ca/fr/cancer-information/cancer-types/breast/signs-and-symptoms]] )consultez un professionnel de la santé.\r\n\r\n•(<Si vous n'avez pas de symptômes>) ou [[risques; https://cancer.ca/fr/cancer-information/cancer-types/breast/risks]]  vous êtes possiblement éligible pour une mammographie de dépistage (une mammographie faite chez un individu qui est en bonne santé sans symptômes):\r\n(<40 à 49 ans>)\r\nDiscutez des pours et contres avec votre professionnel de la santé ou cliquez sur ce [[lien; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]  pour trouver votre site provincial ou territorial de dépistage. Plus d'informations pour les femmes de 40 à 49 ans ci-dessous.\r\n\r\n(<50 à 74 ans>): \r\nPassez une mammographie à  tous les 2 à 3 ans .\r\nTrouver votre site provincial ou territorial de dépistage [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]\r\n\r\nDifférents points de vue sur le dépistage entre 40 et 49 ans: \r\n•[[Recommandation du Groupe d'Étude Canadien; https://canadiantaskforce.ca/wp-content/uploads/2024/06/BCU_Draft-Rec_Discussion-tool_40-49_FINAL_FR.pdf]]\r\n•Articles en faveur du dépistage 40-49 ans:\r\n[[L'âge de l'incidence du cancer du sein diminue; https://journals.sagepub.com/doi/full/10.1177/08465371241246422]]\r\n[[Les approches de différentes provinces; https://ascopubs.org/doi/full/10.1200/JCO.23.00348]]",
+    "Subject": "Mammographies de dépistage-Canada",
+    "General Patient Text": "• (<Si vous avez des symptômes>) au niveau des seins (masse, douleur, écoulement ou autre [[symptôme de cancer du sein; https://cancer.ca/fr/cancer-information/cancer-types/breast/signs-and-symptoms]] )consultez un professionnel de la santé.\r\n\r\n•(<Si vous n'avez pas de symptômes>) ou [[risques; https://cancer.ca/fr/cancer-information/cancer-types/breast/risks]]  vous êtes possiblement éligible pour une mammographie de dépistage (une mammographie faite chez un individu qui est en bonne santé sans symptômes):\r\n(<40 à 49 ans>)\r\nDiscutez des pours et contres avec votre professionnel de la santé ou cliquez sur ce [[lien; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]  pour trouver votre site provincial ou territorial de dépistage. Plus d'informations pour les femmes de 40 à 49 ans ci-dessous.\r\n(<50 à 74 ans>): \r\nPassez une mammographie à  tous les 2 à 3 ans .\r\nTrouver votre site provincial ou territorial de dépistage [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]\r\n\r\n(<Si vous n'avez pas de médecin de famille ou d'inifirmière praticienne>)\r\nDans la plupart des régions vous pouvez appeler le 811 pour savoir comment obtenir une mammographie.",
     "Health Provider Text": "n/a",
     "Gender": "f",
-    "Minimum age": 40,
+    "Minimum age": 18,
     "Maximum age": 74
   },
   {
     "Button": "Breast",
     "Topic heading": "Cancer du sein",
-    "Subject": "Âge: 75 ans ou plus",
+    "Subject": "Mammographies de dépistage-Ontario",
+    "General Patient Text": "Une mammographie de dépistage est recommandée à certaines périodes de votre vie, si vous n'avez pas de [[symptômes; https://cancer.ca/fr/cancer-information/cancer-types/breast/signs-and-symptoms]] au niveau des seins. Si vous avez des symptômes consultez votre  clinicien ou appeler le 811.\r\n\r\n•(<40 à 49ans>)\r\nVous pouvez avoir une mammographie de dépistage aux 2 ans, il est recommandé de discuter des pours et contres avec un clinicien. \r\n[[Ce que vous devez savoir sur le dépistage du cancer du sein entre 40 et 49ans; https://www.cancercareontario.ca/fr/types-de-cancer/cancer-du-sein/depistage/agees-40-49-ce-que-vous-devez-savoir]]\r\n•(<50 à 74 ans>)\r\nUne mammographie est recommandée à tous les 2 ans\r\n[[Information sur le programme; https://www.cancercareontario.ca/fr/types-de-cancer/cancer-du-sein/depistage-du-cancer-du-sein]]\r\n•(<Faire un rendez-vous>)\r\nAppeler le 1-800-668-9304\r\nPour trouver un endroit et les temps d'attente consultez la page  [[Santé Ontario-Temps d'attente; https://www.ontariohealth.ca/fr/rapports-publics/temps-dattente]]\r\n\r\n•(<Quel est votre risque de cancer?>)\r\nConsulter [[Mon QICancer; https://www.mycanceriq.ca/]]",
+    "Health Provider Text": "n/a",
+    "Gender": "f",
+    "Minimum age": 18,
+    "Maximum age": 74
+  },
+  {
+    "Button": "Breast",
+    "Topic heading": "Cancer du sein",
+    "Subject": "Âge: 75 ans et plus",
     "General Patient Text": "La recherche ne recommande aucune mammographie à partir de 75 ans, mais si vous êtes en bonne santé, vous pouvez discuter  avec votre professionnel de la santé.",
     "Health Provider Text": "n/a",
     "Gender": "f",
@@ -262,9 +272,29 @@
   {
     "Button": "Breast/Chest",
     "Topic heading": "Cancer du sein",
-    "Subject": "Informations",
-    "General Patient Text": "• Si vous prenez des œstrogènes depuis plus que 5 ans il est recommandé de passer régulièrement des mammographies de dépistage en fonction de votre âge.\r\n• La recommandation est que vous passiez une mammographie tous les 2 ans de 50 à 74 ans ou dans certaines provinces de 40 à 74 ans.",
+    "Subject": "Prevenir le cancer du sein ",
+    "General Patient Text": "Voir les [[recommandations pour diminuer votre risque du cancer du sein; https://cancer.ca/fr/cancer-information/cancer-types/breast/risks/reducing-your-risk]]",
+    "Health Provider Text": "n/a",
+    "Gender": "tf",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Breast/Chest",
+    "Topic heading": "Cancer du sein",
+    "Subject": "Mammographies de dépistage-Canada",
+    "General Patient Text": "• Si vous prenez des œstrogènes depuis plus que 5 ans il est recommandé de passer régulièrement des mammographies de dépistage en fonction de votre âge.\r\n• La recommandation est que vous passiez une mammographie tous les 2 ans de 50 à 74 ans ou dans certaines provinces de 40 à 74 ans.\r\n•Si vous n'avez pas de médecin de famille ou d'inifirmière praticienne:\r\nDans la plupart des régions vous pouvez appeler le 811 pour savoir comment obtenir une mammographie.",
     "Health Provider Text": "• Pour les femmes trans et les personnes transféminines qui suivent un traitement hormonal féminisant depuis 5 ans il est recommandé de subir un dépistage du cancer du sein conformément aux directives actuelles pour les femmes cis.\r\n• La recommandation actuelle est une mammographie tous les 2 ans à partir de 50-74 ans, dans certaines provinces de 40 à 74 ans.\r\n•Important de vérifier avec l'endroit où se font les mammographies que les personnes de genres divers sont accueillis et de la meilleure façon d'indiquer ceci sur la requête, afin d'éviter des situations difficiles pour le patient.\r\n• Notez que la présence d'implants mammaires, dépendant de vos ressources locales, peut nécessiter une mammographie diagnostique plutôt qu'une mammographie de dépistage.",
+    "Gender": "tf",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Breast/Chest",
+    "Topic heading": "Cancer du sein",
+    "Subject": "Mammographies de dépistage-Ontario",
+    "General Patient Text": "• Si vous prenez des œstrogènes depuis plus de 5 ans il est recommandé de passer régulièrement des mammographies de dépistage en fonction de votre âge.\r\n• Si vous avez entre 40 et 74 ans voir les [[informations sur le programme de l'Ontario; https://www.cancercareontario.ca/fr/types-de-cancer/cancer-du-sein/depistage-du-cancer-du-sein]]\r\n•(<Faire un rendez-vous>)\r\nAppeler le 1-800-668-9304\r\nPour trouver un endroit et les temps d'attente consultez la page  [[Santé Ontario-Temps d'attente; https://www.ontariohealth.ca/fr/rapports-publics/temps-dattente]]\r\n",
+    "Health Provider Text": "• Pour les femmes trans et les personnes transféminines qui suivent un traitement hormonal féminisant depuis 5 ans il est recommandé de subir un dépistage du cancer du sein conformément aux directives actuelles pour les femmes cis.\r\n•Les mammographies de dépistage sont disponibles entre 40 et 74 ans en Ontario\r\n[[Programme de dépistage du cancer du sein Ontario-lignes directrices; https://www.cancercareontario.ca/fr/lignes-directrices-conseils/continuum-des-soins-de-cancerologie/depistage/resume-des-recommandations-sur-le-depistage-du-cancer-du-sein]]\r\n•Important de vérifier avec l'endroit où se font les mammographies que les personnes de genres divers sont accueillis et de la meilleure façon d'indiquer ceci sur la requête, afin d'éviter des situations difficiles pour le patient.",
     "Gender": "tf",
     "Minimum age": 18,
     "Maximum age": 150
@@ -322,7 +352,7 @@
   {
     "Button": "Colon",
     "Topic heading": "Cancer colorectal",
-    "Subject": "Dépistage",
+    "Subject": "Dépistage-Canada",
     "General Patient Text": "n/a",
     "Health Provider Text": "De 50 à 74 ans\r\n• Test de recherche de sang occulte dans les selles ou examen immunochimique des selles (selon la province) tous les 2 ans\r\n• Sigmoïdoscopie flexible tous les 10 ans\r\n• Aucune colonoscopie recommandée au Canada: Risque de perforation de 1 sur 2 000, aucune donnée probante pour l’instant, études contrôlées à répartition aléatoire en cours\r\n\r\n[[Groupe d’étude canadien 2016; https://canadiantaskforce.ca/lignesdirectrives/lignes-directrices-publiees/cancer-colorectal/?lang=fr]]",
     "Gender": "all",
@@ -331,12 +361,32 @@
   },
   {
     "Button": "Colon",
-    "Topic heading": "Cancer du côlon",
-    "Subject": "Passer un test de dépistage du cancer du côlon",
-    "General Patient Text": "De 50 à 74 ans:\r\n• Se prêter à une analyse des selles tous les 2 ans; en cas de présence de sang dans les selles, vous serez orienté pour passer une coloscopie\r\n• La colonoscopie n’est pas recommandée si vous ne présentez aucun symptôme ou n’avez aucun antécédent familial de cancer du côlon. 1 personne sur 2 000 qui subit une colonoscopie subira une complication grave.\r\n\r\n[[Plus de renseignements; https://canadiantaskforce.ca/wp-content/uploads/2016/09/ctfphccolorectal-cancerpatient-faqfrenchfinalv2.pdf]]",
-    "Health Provider Text": "n/a",
+    "Topic heading": "Cancer colorectal",
+    "Subject": "Dépistage-Ontario",
+    "General Patient Text": "n/a",
+    "Health Provider Text": "•50 à 74 ans\r\n•Test FIT aux 2 ans  \r\nSi le patient n'a ni  symptôme ni histoire famililale de cancer colorectal.\r\n•La colonoscopie n'est pas  recommandée pour le dépistage pour les patients de risque moyen.\r\n[[Programme Ontarien de dépistage du cancer colorectal; https://www.cancercareontario.ca/fr/lignes-directrices-et-conseils/continuum-des-soins-de-cancerologie/depistage/ressources-a-lintention-des-fournisseurs-de-soins-de-sante-sur-le-depistage/resume-des-recommandations-relatives-au-depistage-du%20cancer-colorectal]]",
     "Gender": "all",
     "Minimum age": 50,
+    "Maximum age": 74
+  },
+  {
+    "Button": "Colon",
+    "Topic heading": "Cancer colorectal",
+    "Subject": "Passer un test de dépistage-Canada",
+    "General Patient Text": "(<Pourquoi?>)\r\nLe cancer colorectal est la 2ième cause de mortalité par cancer au Canada. Quand ce cancer est découvert tôt 9 personnes sur 10 peuvent être guéries\r\n(<Comment?>)\r\nUn test facile que vous pouvez faire  à la maison en 5 minutes. Ce 5 minutes peuvent vous sauver la vie.\r\n Disponible par votre médecin de famille ou infirmiére praticienne ou trouver votre programme local [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-colorectal-cancer/how-do-i-find-a-colorectal-cancer-screening-program?_gl=1*1byqca9*_up*MQ..&gclid=Cj0KCQiAq-u9BhCjARIsANLj-s1m-H8ZDjfoR8FbzNjfZL9BS2AiZJ16qPRuqw_x52M1Z5PS771o2OMaAs_gEALw_wcB]]\r\n(<Quand?>)\r\nQuand vous êtes âgé entre 50 et 74 ans et si vous n'avez pas de [[symptômes; https://cancer.ca/fr/cancer-information/cancer-types/colorectal/signs-and-symptoms]].\r\nSi vous avez des symptômes ou une histoire familiale de cancer colorectal parler à votre clinicien ou appeler le 811 dans votre région.\r\n\r\n[[Recommandation du Groupe Canadien; https://canadiantaskforce.ca/wp-content/uploads/2016/09/ctfphccolorectal-cancerpatient-faqfrenchfinalv2.pdf]]",
+    "Health Provider Text": "n/a",
+    "Gender": "all",
+    "Minimum age": 18,
+    "Maximum age": 74
+  },
+  {
+    "Button": "Colon",
+    "Topic heading": "Cancer colorectal",
+    "Subject": "Passer un test de dépistage-Ontario",
+    "General Patient Text": "(<Pourquoi?>)\r\nLe cancer colorectal est la 2ième cause de mortalité par cancer au Canada. Quand ce cancer est découvert tôt 9 personnes sur 10 peuvent être guéries\r\n(<Comment?>)\r\nUn test facile faisable à la maison en 5 minutes. Ce 5 minute peut vous sauver la vie.\r\nDisponible par votre médecin de famille ou infirmiére praticienne ou en appelant le 811.\r\n(<Quand?>)\r\nQuand vous êtes âgé entre 50 et 74 ans et si vous n'avez pas de [[symptômes; https://cancer.ca/fr/cancer-information/cancer-types/colorectal/signs-and-symptoms]].\r\nSi vous avez des symptômes ou une histoire familiale de cancer colorectal parler à votre clinicien ou appeler le 811.\r\n\r\n[[Programme de l'Ontario; https://www.cancercareontario.ca/fr/lignes-directrices-et-conseils/continuum-des-soins-de-cancerologie/depistage/ressources-a-lintention-des-fournisseurs-de-soins-de-sante-sur-le-depistage/resume-des-recommandations-relatives-au-depistage-du%20cancer-colorectal]]\r\n\r\n",
+    "Health Provider Text": "n/a",
+    "Gender": "all",
+    "Minimum age": 18,
     "Maximum age": 74
   },
   {
@@ -351,13 +401,13 @@
   },
   {
     "Button": "Colon",
-    "Topic heading": "Cancer du côlon",
+    "Topic heading": "Cancer colorectal",
     "Subject": "Prévention du cancer du côlon",
     "General Patient Text": "• Être physiquement actif\r\n• Maintenir un poids corporel santé [[IMC; https://cancer.ca/fr/cancer-information/reduce-your-risk/have-a-healthy-body-weight/reduce-your-risk-of-cancer-with-a-healthy-body-weight]]\r\n• Ne pas fumer et éviter la fumée secondaire\r\n\r\n[[plus de renseignements sur la prévention du cancer du côlon; http://www.cancer.ca/fr-ca/cancer-information/cancer-type/colorectal/risks/reducing-your-risk/?region=on]]",
     "Health Provider Text": "À recommander aux patients:\r\n• Être physiquement actif\r\n• Maintenir un poids corporel santé [[IMC; https://cancer.ca/fr/cancer-information/reduce-your-risk/have-a-healthy-body-weight/reduce-your-risk-of-cancer-with-a-healthy-body-weight]]\r\n• Limiter la consommation d’alcool (voir les lignes directrices sur la consommation saine)\r\n• Ne pas fumer et éviter la fumée secondaire\r\n• Limiter sa consommation de viande rouge et de viande transformée\r\n• Manger des aliments riches en fibres\r\n• Réduire le temps passé assis\r\n[[source; http://www.cancer.ca/fr-ca/cancer-information/cancer-type/colorectal/risks/reducing-your-risk/?region=on]]",
     "Gender": "all",
     "Minimum age": 18,
-    "Maximum age": 49
+    "Maximum age": 150
   },
   {
     "Button": "Covid",
@@ -432,9 +482,9 @@
   {
     "Button": "Pancreas",
     "Topic heading": "Diabète de type 2",
-    "Subject": "Prévenir le diabète",
-    "General Patient Text": "• Manger sainement\r\n• Être physiquement actif\r\n• Maintenir un IMC santé entre 18,5 et 24:\r\n[[Calculateur IMC; https://cancer.ca/fr/cancer-information/reduce-your-risk/have-a-healthy-body-weight/reduce-your-risk-of-cancer-with-a-healthy-body-weight]]\r\n( Seul calculateur IMC canadien en français non commercial trouvé , sur le site de cancer.ca)\r\nEn anglais: [[IMC; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator]]\r\n",
-    "Health Provider Text": "Recommander\r\n• Alimentation saine\r\n• Activité physique\r\n• IMC santé entre 18,5 et 24\r\nEn anglais: [[IMC; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator]]\r\nSeul calculateur IMC canadien en français non commercial trouvé , sur le site de cancer.ca:\r\n[[IMC; https://cancer.ca/fr/cancer-information/reduce-your-risk/have-a-healthy-body-weight/reduce-your-risk-of-cancer-with-a-healthy-body-weight]]",
+    "Subject": "Prévenir le diabète-Canada",
+    "General Patient Text": "•Savoir si vous êtes à risque de déveloper le diabète:\r\nRemplir le questionnaire [[CANRISK; https://www.healthycanadians.gc.ca/fr/canrisk]]\r\n•Vérifier si vous avez des symptômes de diabète [[ici; https://www.canada.ca/fr/sante-publique/services/maladies-chroniques/diabete/symptomes-traitement.html]]. Si oui. consulter un clinicien.\r\n•Plusieurs provinces et territoires offrent des programmes de prévention du diabète. Consulter le 811 localement.\r\n\r\n• Manger sainement: [[conseils; https://www.diabete.qc.ca/le-diabete/la-gestion-du-diabete/alimentation/]]\r\n• Être physiquement actif\r\n[[Conseils; https://www.diabete.qc.ca/le-diabete/la-gestion-du-diabete/activite-physique/]]\r\n• Maintenir un IMC santé entre 18,5 et 24:\r\n[[Calculateur IMC; https://cancer.ca/fr/cancer-information/reduce-your-risk/have-a-healthy-body-weight/reduce-your-risk-of-cancer-with-a-healthy-body-weight]]\r\n( Seul calculateur IMC canadien en français non commercial trouvé , sur le site de cancer.ca)\r\n\r\n\r\n\r\n",
+    "Health Provider Text": "Recommander\r\n•De remplir le questionnaire  [[CANRISK; https://www.healthycanadians.gc.ca/fr/canrisk]]\r\n• Alimentation saine\r\n• Activité physique\r\n• IMC santé entre 18,5 et 24\r\nEn anglais: [[IMC; https://www.diabetes.ca/resources/tools-resources/body-mass-index-(bmi)-calculator]]\r\nSeul calculateur IMC canadien en français non commercial trouvé , sur le site de cancer.ca:\r\n[[IMC; https://cancer.ca/fr/cancer-information/reduce-your-risk/have-a-healthy-body-weight/reduce-your-risk-of-cancer-with-a-healthy-body-weight]]\r\n•De nombreuses provinces et territoires offrent des programmes de prévention du diabète, référer si justifié.",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -442,8 +492,18 @@
   {
     "Button": "Pancreas",
     "Topic heading": "Diabète de type 2",
-    "Subject": "Se prêter à une analyse de sang pour le dépistage du diabète si vous présentez un risque",
-    "General Patient Text": "Vous pouvez utiliser un calculateur pour vérifier si vous avez besoin de vous soumettre à une telle analyse:\r\n[[calculateur 1; http://www.preventiondiabete.ca/]]\r\n[[calculateur 2; https://canadiantaskforce.ca/wp-content/uploads/2016/10/2012-type-2-diabetes-patient-findrisc-fr.pdf]]",
+    "Subject": "Prévenir le diabète-Ontario",
+    "General Patient Text": "•(<Savoir si vous êtes à risque>)\r\n de déveloper le diabète:\r\nRemplir le questionnaire [[CANRISK; https://www.healthycanadians.gc.ca/fr/canrisk]]\r\n•(<Reconnaître les symptômes du diabète>)\r\n [[Liste de symptômes; https://www.canada.ca/fr/sante-publique/services/maladies-chroniques/diabete/symptomes-traitement.html]]. Si oui. consulter un clinicien.\r\n•(<Programmes d'éducation du diabète >): \r\nDisponibles gratuitement en Ontario our vous soutenir dans votre prévention du diabète. Appler le 811 ou visiter [[Santé811; https://health811.ontario.ca/static/fr-ca/guest/home]]\r\n•(<Populations autochtones>)\r\n En Ontario voir le [[Indigenous Diabetes Health Circle; https://idhc.life/about-our-organization/]]",
+    "Health Provider Text": "Ressources pour les patients\r\n•(<Recommander le questionnaire \r\n[[CANRISK; https://www.healthycanadians.gc.ca/fr/canrisk]]\r\n•(<Reconnaître les symptômes du diabète>)\r\n [[Liste de symptômes; https://www.canada.ca/fr/sante-publique/services/maladies-chroniques/diabete/symptomes-traitement.html]]. Si oui. consulter un clinicien.\r\n•(<Programmes d'éducation du diabète >): \r\nDisponibles gratuitement en Ontario our vous soutenir dans votre prévention du diabète. Appler le 811 ou visiter [[Santé811; https://health811.ontario.ca/static/fr-ca/guest/home]]\r\n•(<Populations autochtones>)\r\n En Ontario voir le [[Indigenous Diabetes Health Circle; https://idhc.life/about-our-organization/]]",
+    "Gender": "all",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Pancreas",
+    "Topic heading": "Diabète de type 2",
+    "Subject": "Se prêter à une analyse de sang pour le dépistage du diabète ",
+    "General Patient Text": "Vous pouvez utiliser un calculateur pour vérifier si vous avez besoin de vous soumettre à une telle analyse:\r\nRemplir le questionnaire [[CANRISK; https://www.healthycanadians.gc.ca/fr/canrisk]]\r\n",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,
@@ -563,8 +623,8 @@
     "Button": "Lung",
     "Topic heading": "Poumon",
     "Subject": "Tabagisme",
-    "General Patient Text": "Recommandation: abandon du tabagisme ou diminution de la consommation. En tant que fumeur, il s’agit du plus important changement que vous puissiez faire pour améliorer votre santé. Si vous trouvez cela difficile, il est bon de savoir qu’il existe nombre de sites Web, de groupes et de lignes téléphoniques utiles dans chaque province.\r\n[[plus de renseignements; https://www.smokershelpline.ca/fr-ca/home/]]",
-    "Health Provider Text": "n/a",
+    "General Patient Text": "Recommandation: abandon du tabagisme ou diminution de la consommation. En tant que fumeur, il s’agit du plus important changement que vous puissiez faire pour améliorer votre santé. Si vous trouvez cela difficile, il est bon de savoir qu’il existe nombre de sites Web, de groupes et de lignes téléphoniques utiles dans chaque province.\r\n[[Téléassistance; https://www.smokershelpline.ca/fr-ca/home/]]\r\n[[Sur la voie de la réussite; https://www.canada.ca/fr/sante-canada/services/publications/vie-saine/voie-reussite-guide-pour-devenir-non-fumeur.html]]",
+    "Health Provider Text": "• Demander à tous les patients s’ils consomment du tabac\r\n• Conseiller aux patients d’arrêter de fumer\r\n• Utiliser des interventions comportementales\r\n• Au besoin, utiliser une pharmacothérapie approuvée pour favoriser l’abandon du tabagisme.\r\n[[USPSTF A (2013); https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions]]\r\n[[Vidéo; https://www.youtube.com/watch?v=URiKA7CKtfc]]\r\n\r\n[[Téléassistance; https://www.smokershelpline.ca/fr-ca/home]]\r\n[[Sur la voie de la réussite; https://www.canada.ca/fr/sante-canada/services/publications/vie-saine/voie-reussite-guide-pour-devenir-non-fumeur.html]]\r\n",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -572,29 +632,19 @@
   {
     "Button": "Lung",
     "Topic heading": "Poumon",
-    "Subject": "Dépistage du cancer du poumon",
-    "General Patient Text": "• Si vous fumez depuis de nombreuses années, vous pourriez être admissible à un dépistage du cancer du poumon par tomodensitométrie à faible dose. \r\n\r\n• L'Ontario possède un [[programme de dépistage ; https://www.cancercareontario.ca/fr/propos-action-cancer-ontario/programmes/programmes-depistage/programme-ontarien-depistage-cancer-poumon]] dans certains hôpitaux.\r\n\r\n• Cliquez [[ici; https://www.mycanceriq.ca/Cancers/Lung]] pour évaluer votre niveau de risque et obtenir plus d'informations.\r\n\r\n• Il existe des programmes pilotes en \r\n[[Colombie-Britannique ; http://www.bccancer.bc.ca/screening/lung]], au [[Québec ; https://www.quebec.ca/sante/conseils-et-prevention/depistage-et-offre-de-tests-de-porteur/projet-demonstration-depistage-cancer-du-poumon#c100839]] \r\n[[Alberta; https://screeningforlife.ca/lung/?gclid=EAIaIQobChMInfvc8KPdgQMVAv7ICh2e3wEEEAAYASAAEgLV4vD_BwE]].",
-    "Health Provider Text": "n/a",
+    "Subject": "Dépistage du cancer du poumon-Canada",
+    "General Patient Text": "(<Pourquoi?>)\r\nLe cancer du poumon est la plus grande cause de décès par cancer au Canada.\r\n(<Qui?>)\r\nSi vous fumez depuis de nombreuses années, vous pourriez être admissible à un dépistage du cancer du poumon. Habituellement pour les personnes âgées entre 55 et 74 ans.\r\n(<Comment?>)\r\nVérifier si vous avez un programme local [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-lung-cancer/how-do-i-find-a-lung-cancer-screening-program]]",
+    "Health Provider Text": "Le [[GECSSP (2016); https://canadiantaskforce.ca/lignesdirectrives/lignes-directrices-publiees/cancer-du-poumon/?lang=fr ]] recommande une tomographie à faible dose pour \r\n• les adultes âgés de 55 à 74 ans,\r\n• avec un historique de tabagisme d'au moins 30 paquets-années, \r\n• qui fument actuellement, ou qui ont cessé de fumer il y a moins de 15 ans.\r\n• Ils recommandent un dépistage annuel, jusqu’à 3 fois consécutives. (Recommandation faible ; données probantes de faible qualité)\r\n\r\nLes programmes varient à travers le Canada et les critères d'admissibilité peuvent être différents du GECSSP\r\n[[Liste de la Société canadienne du cancer; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-lung-cancer/how-do-i-find-a-lung-cancer-screening-program]]",
     "Gender": "all",
-    "Minimum age": 55,
+    "Minimum age": 18,
     "Maximum age": 74
   },
   {
     "Button": "Lung",
     "Topic heading": "Poumon",
-    "Subject": "Tabagisme",
-    "General Patient Text": "n/a",
-    "Health Provider Text": "• Demander à tous les patients s’ils consomment du tabac\r\n• Conseiller aux patients d’arrêter de fumer\r\n• Utiliser des interventions comportementales\r\n• Au besoin, utiliser une pharmacothérapie approuvée pour favoriser l’abandon du tabagisme.\r\n[[USPSTF A (2013); https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions]]\r\n[[vidéo; https://www.youtube.com/watch?v=URiKA7CKtfc]]",
-    "Gender": "all",
-    "Minimum age": 18,
-    "Maximum age": 150
-  },
-  {
-    "Button": "Lung",
-    "Topic heading": "Poumon",
-    "Subject": "Dépistage du cancer du poumon",
-    "General Patient Text": "n/a",
-    "Health Provider Text": "Le [[GECSSP (2016); https://canadiantaskforce.ca/lignesdirectrives/lignes-directrices-publiees/cancer-du-poumon/?lang=fr ]] recommande une tomographie à faible dose pour \r\n• les adultes âgés de 55 à 74 ans,\r\n• avec un historique de tabagisme d'au moins 30 paquets-années, \r\n• qui fument actuellement, ou qui ont cessé de fumer il y a moins de 15 ans.\r\n• Ils recommandent un dépistage annuel, jusqu’à 3 fois consécutives. (Recommandation faible ; données probantes de faible qualité)\r\n• Pour tous les autres adultes, quel que soit leur âge, leurs antécédents de tabagisme ou autres facteurs de risque, ils recommandent de ne pas dépister le cancer du poumon avec tomographie. (Recommandation forte ; données probantes de très faible qualité)\r\nIl n'y a pas de programme dans chaque province,\r\n\r\n•  [[Ontario ; https://www.cancercareontario.ca/fr/directives-conseils/continuum-cancer/depistage/renseignements-depistage-du-cancer-du-poumon]] dans certains hôpitaux de l’Ontario. \r\n\r\n• [[Québec ; https://www.quebec.ca/sante/conseils-et-prevention/depistage-et-offre-de-tests-de-porteur/projet-demonstration-depistage-cancer-du-poumon#c100839]] \r\n• Ce site inclut de l'information pour chaque province [[Dépistage du cancer du poumon; https://right2survive.ca/fr/resource-centre/screening/]]",
+    "Subject": "Dépistage du cancer du poumon-Ontario",
+    "General Patient Text": "(<Pourquoi?>)\r\nLe cancer du poumon est la plus grande cause de décès par cancer au Canada.\r\n(<Qui?>)\r\nSi vous avez entre 55 et 74 ans et vous avez fumé plus que 20ans (pas nécessairement 20 ans de suite). Si vous avez ces critères vous serez évalué pour le programme, mais tous ne sont pas admis au programme, dépendant d'autres facteurs.\r\n(<Comment?>)\r\nCertaines régions de l'Ontario offrent ce programme. Vérifier l'information suivante [[Programme de l'Ontario; https://www.cancercareontario.ca/fr/types-de-cancer/cancer-du-poumon/depistage-du-cancer-du-poumon]]",
+    "Health Provider Text": "(<Pourquoi?>)\r\nLe cancer du poumon est la plus grande cause de décès par cancer au Canada.\r\n(<Qui?>)\r\nEntre 55 et 74 ans et ont fumé au moins pendant 20ans (pas nécessairement 20 ans de suite). Après une évaluation de risque le patient peut être admis mais tous ne sont pas admis au programme, dépendant d'autres facteurs.\r\n(<Comment?>)\r\nCertaines régions de l'Ontario offrent ce programme. [[Programme dépistage du cancer du poumon de l'Ontario; https://www.cancercareontario.ca/fr/directives-conseils/continuum-cancer/depistage/renseignements-depistage-du-cancer-du-poumon]]",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -722,8 +772,18 @@
   {
     "Button": "Genitalia",
     "Topic heading": "Santé sexuelle et reproductive",
-    "Subject": "Passez un test PAP ",
-    "General Patient Text": "Passez un test PAP\r\n (pour le dépistage du cancer du col de l'utérus)\r\n• Si vous avez eu de l'activité sexuelle avec une autre personne (homme ou femme) et vous avez 25 ans ou plus vous avez besoin de faire un test PAP (test de dépistagepour le dcancer du col)\r\n [[Qu'est-ce qui est considéré comme activité sexuelle?; https://www.sexandu.ca/fr/sexual-activity/what-is-sex/]]\r\n\r\n• Les femmes âgées de 25 à 69 ans (de 21 à 69 ans dans certaines provinces) qui sont sexuellement actives, sont fortement conseillées de passer un test Pap tous les 3 ans (aux 3 ans lorsque les résultats sont normaux).\r\n[[Qu’est-ce que le cancer du col de l’utérus?; http://www.cancer.ca/fr-ca/cancer-information/cancer-type/cervical/cervical-cancer/? region=on]]\r\n\r\n• Si vous avez 69 ou 70 ans vous pouvez arrêter les  tests PAP si vous avez eu 3 tests normaux dans les 10 dernières années. Sinon continuez jusqu'à ce que vous avez 3 tests PAP normaux dans les 10 dernières années",
+    "Subject": "Passer un test pour le cancer du col-Canada",
+    "General Patient Text": "(<Qui?>)\r\n•25 à 69 ans\r\n•Si vous êtes une femme ou une personne avec diversité de genre avec un col de l'utérus \r\n• Si vous avez eu de l'activité sexuelle avec une autre personne (homme ou femme)\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux . Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n [[Qu'est-ce qui est considéré comme activité sexuelle?; https://www.sexandu.ca/fr/sexual-activity/what-is-sex/]]\r\n(<Comment>)\r\nCertaines provinces ou territoires offrent des Pap tests, d'autres des tests pour le PVH (virus du papillome humain).\r\nTrouver une liste de la Société canadienne du cancer [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n[[Qu’est-ce que le cancer du col de l’utérus?; http://www.cancer.ca/fr-ca/cancer-information/cancer-type/cervical/cervical-cancer/? region=on]]\r\n\r\n",
+    "Health Provider Text": "n/a",
+    "Gender": "f",
+    "Minimum age": 18,
+    "Maximum age": 74
+  },
+  {
+    "Button": "Genitalia",
+    "Topic heading": "Santé sexuelle et reproductive",
+    "Subject": "Passer un test pour le cancer du col-Ontario",
+    "General Patient Text": "(<Le test>)\r\nEn mars 2025 l'Ontario change le test fait au préalable, le Pap test, pour le test VPH. \r\nSi votre système immunitaire est normal et le test est négatif vous aurez besoin de le répéter seulement dans 5ans\r\n(<Qui doit passer le test>)\r\n•25 à 69 ans\r\n•Si vous êtes une femme ou une personne avec diversité de genre avec un col de l'utérus \r\n• Si vous avez eu de l'activité sexuelle avec une autre personne (homme ou femme)\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux . Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n[[Que savoir sur le dépistage du cancer du col de l'utérus; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-FR.pdf]]\r\n",
     "Health Provider Text": "n/a",
     "Gender": "f",
     "Minimum age": 18,
@@ -742,11 +802,21 @@
   {
     "Button": "Genitalia",
     "Topic heading": "Santé sexuelle et reproductive",
-    "Subject": "Cancer du col de l'utérus",
+    "Subject": "Dépistage du cancer du co-Canadal ",
     "General Patient Text": "n/a",
-    "Health Provider Text": "Les femmes âgées de 25 à 69 ans (de 21 à 69 ans dans certaines provinces) qui sont sexuellement actives doivent passer un test Pap tous les 3 ans lorsque les résultats sont normaux. Mettre fin aux tests après 69 ans s'il y a 3 résultats normaux dans les dernières 10 années. \r\n[[GECSSP 2013; https://canadiantaskforce.ca/lignesdirectrives/lignes-directrices-publiees/cancer-du-col-de-luterus/?lang=fr/]]",
+    "Health Provider Text": "(<Qui?>)\r\n•25 à 69 ans\r\n•Une femme ou une personne avec diversité de genre avec un col de l'utérus \r\n• Qui a eu de l'activité sexuelle avec une autre personne (homme ou femme)\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux . Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n\r\n(<Comment>)\r\nCertaines provinces ou territoires offrent des Pap tests, d'autres des tests pour le PVH (virus du papillome humain).\r\nListe de la Société canadienne du cancer [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n",
     "Gender": "f",
-    "Minimum age": 21,
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Genitalia",
+    "Topic heading": "Santé sexuelle et reproductive",
+    "Subject": "Dépistage du cancer du col -Ontario",
+    "General Patient Text": "n/a",
+    "Health Provider Text": "(<Changement au test VPH>)\r\nEn mars 2025 l'Ontario change adopte le test VPH au lieu du Pap test.\r\n(<Qui doit passer le test>)\r\n•25 à 69 ans\r\n•Ue femme ou une personne avec diversité de genre avec un col de l'utérus \r\n• Qui a eu de l'activité sexuelle avec une autre personne (homme ou femme)\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux . Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n[[Lignes directrices Ontario 2025; https://www.cancercareontario.ca/fr/guidelines-advice/cancer-continuum/screening/hpv-hub]]\r\nPour les patients:\r\n[[Que savoir sur le dépistage du cancer du col de l'utérus; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-FR.pdf]]\r\n",
+    "Gender": "f",
+    "Minimum age": 18,
     "Maximum age": 150
   },
   {
@@ -932,9 +1002,19 @@
   {
     "Button": "Genitalia",
     "Topic heading": "Santé sexuelle et reproductive",
-    "Subject": "Cancer du col de l'utérus",
-    "General Patient Text": "• Si vous n'avez pas subi de chirurgie pour retirer l'utérus (incluant le [[col de l'utérus; https://cancer.ca/fr/cancer-information/cancer-types/cervical/what-is-cervical-cancer/the-cervix]], chirurgie nommée hystérectomie) vous avez besoin  d'un dépistage régulier du cancer du col de l'utérus.\r\n• Des tests Pap sont recommandés tous les 3 ans de 25  à 69 ans si vous avez déjà été sexuellement actif.\r\n\r\n• [[Aperçu du dépistage du cancer du col de l'utérus chez les hommes trans au Canada; https://cancer.ca/fr/cancer-information/find-cancer-early/screening-in-lgbtq-communities/as-a-trans-man-do-i-need-to-get-screened-for-cervical-cancer]]\r\n• [[Directives RHO; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n• [[Directives UCSF Transcare; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n• [[Directives de la Société d'endocrinologie ; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
-    "Health Provider Text": "Les hommes trans et les personnes du spectre transmasculin qui ont encore un col de l'utérus devraient subir un dépistage du cancer du col de l'utérus conformément aux directives actuelles.\r\n(<Les tests Pap>)sont recommandés tous les 3 ans de 25 à 69 ans si la personne a déjà été sexuellement active.\r\n(<Faciliter l'examen avec spéculum>)\r\n• Le patient peut appliquer une gelée de lidocaïne topique à 2 % par voie vaginale  10 à 30 minutes avant l'intervention. Dans certaines provinces le patient peut se le procurer à la pharmacie sans Rx, en demandant au pharmacien (gardé derrière le comptoir)\r\n• Le patient voudra peut-être amener une personne pour son support\r\n• Utiliser un speculum pédiatrique, le patient voudra peut-être l'insérer lui-même.\r\n\r\n(<Assurez-vous de noter si le patient est/était sous testostérone sur la demande de cytologie, car l'atrophie cervicale peut imiter une dysplasie.\r\n\r\nAutres astuces\r\n• Un essai d'œstrogènes vaginaux pendant 1 semaine avant l'examen peut être utile (RHO, UCSF) pour diminuer l'inconfort du patient mais peut donner une dysphorie \r\n• Envisager d'administrer un lorazépam à faible dose en pré-intervention si le patient est particulièrement anxieux à propos de l'examen (RHO, UCSF).\r\n\r\n(<Ressources>)\r\n• [[VIDÉO : À faire et à ne pas faire lors de l'exécution de Paps avec des hommes trans; https://www.youtube.com/watch?v=KIfSjX1ZEU4]]\r\n• [[Conseils sur la réalisation de tests Pap pour les hommes trans; https://www.rainbowhealthontario.ca/wp-content/uploads/2015/07/Tips_Paps_TransMen-1.jpg]]\r\n• [[Directives RHO; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n• [[Directives UCSF Transcare; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n• [[Directives de la Société d'endocrinologie ; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "Subject": "Dépistage du cancer du col de l'utérus-Canada",
+    "General Patient Text": "• Si vous n'avez pas subi de chirurgie pour retirer l'utérus (incluant le [[col de l'utérus; https://cancer.ca/fr/cancer-information/cancer-types/cervical/what-is-cervical-cancer/the-cervix]], chirurgie nommée hystérectomie) vous avez besoin  d'un dépistage régulier du cancer du col de l'utérus.\r\n• Un test Pap ou VPH est recommandé régulièrement de 25  à 69 ans si vous avez déjà été sexuellement actif\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux. Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n\r\nCertaines provinces ou territoires offrent des Pap tests, d'autres des tests pour le PVH (virus du papillome humain).\r\nTrouver une liste de la Société canadienne du cancer [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n[[Qu’est-ce que le cancer du col de l’utérus?; http://www.cancer.ca/fr-ca/cancer-information/cancer-type/cervical/cervical-cancer/? region=on]]\r\n• [[Aperçu du dépistage du cancer du col de l'utérus chez les hommes trans au Canada; https://cancer.ca/fr/cancer-information/find-cancer-early/screening-in-lgbtq-communities/as-a-trans-man-do-i-need-to-get-screened-for-cervical-cancer]]\r\n",
+    "Health Provider Text": "Les hommes trans et les personnes du spectre transmasculin qui ont encore un col de l'utérus devraient subir un dépistage du cancer du col de l'utérus conformément aux directives actuelles.\r\n• Un test Pap ou VPH est recommandé régulièrement de 25  à 69 ans si vous avez déjà été sexuellement actif\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux. Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n\r\nCertaines provinces ou territoires offrent des Pap tests, d'autres des tests pour le PVH (virus du papillome humain).\r\nTrouver une liste de la Société canadienne du cancer [[ici; https://cancer.ca/fr/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n(<Faciliter l'examen avec spéculum>)\r\n• Le patient peut appliquer une gelée de lidocaïne topique à 2 % par voie vaginale  10 à 30 minutes avant l'intervention. Dans certaines provinces le patient peut se le procurer à la pharmacie sans Rx, en demandant au pharmacien (gardé derrière le comptoir)\r\n• Le patient voudra peut-être amener une personne pour son support\r\n• Utiliser un speculum pédiatrique, le patient voudra peut-être l'insérer lui-même.\r\n\r\n(<Assurez-vous de noter si le patient est/était sous testostérone sur la demande de cytologie, car l'atrophie cervicale peut imiter une dysplasie.\r\n\r\nAutres astuces\r\n• Un essai d'œstrogènes vaginaux pendant 1 semaine avant l'examen peut être utile (RHO, UCSF) pour diminuer l'inconfort du patient mais peut donner une dysphorie \r\n• Envisager d'administrer un lorazépam à faible dose en pré-intervention si le patient est particulièrement anxieux à propos de l'examen (RHO, UCSF).\r\n\r\n(<Ressources>)\r\n• [[VIDÉO : À faire et à ne pas faire lors de l'exécution de Paps avec des hommes trans; https://www.youtube.com/watch?v=KIfSjX1ZEU4]]\r\n• [[Conseils sur la réalisation de tests Pap pour les hommes trans; https://www.rainbowhealthontario.ca/wp-content/uploads/2015/07/Tips_Paps_TransMen-1.jpg]]\r\n• [[Directives RHO; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n• [[Directives UCSF Transcare; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n• [[Directives de la Société d'endocrinologie ; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "Gender": "tm",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Genitalia",
+    "Topic heading": "Santé sexuelle et reproductive",
+    "Subject": "Dépistage du cancer du col de l'utérus-Ontario",
+    "General Patient Text": "• Si vous n'avez pas subi de chirurgie pour retirer l'utérus (incluant le [[col de l'utérus; https://cancer.ca/fr/cancer-information/cancer-types/cervical/what-is-cervical-cancer/the-cervix]], chirurgie nommée hystérectomie) vous avez besoin  d'un dépistage régulier du cancer du col de l'utérus.\r\n(<Le test>)\r\nEn mars 2025 l'Ontario change le test fait au préalable, le Pap test, pour le test VPH. \r\nSi votre système immunitaire est normal et le test est négatif vous aurez besoin de le répéter seulement dans 5ans\r\n(<Qui doit passer le test>)\r\n•25 à 69 ans\r\n•Si vous êtes une personne avec diversité de genre avec un col de l'utérus \r\n• Si vous avez eu de l'activité sexuelle avec une autre personne (homme ou femme)\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux . Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n[[Que savoir sur le dépistage du cancer du col de l'utérus; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-FR.pdf]]",
+    "Health Provider Text": "Les hommes trans et les personnes du spectre transmasculin qui ont encore un col de l'utérus devraient subir un dépistage du cancer du col de l'utérus conformément aux directives actuelles.\r\n(<Changement au test VPH>)\r\nEn mars 2025 l'Ontario change adopte le test VPH au lieu du Pap test.\r\n(<Qui doit passer le test>)\r\n•25 à 69 ans\r\n•Ue femme ou une personne avec diversité de genre avec un col de l'utérus \r\n• Qui a eu de l'activité sexuelle avec une autre personne (homme ou femme)\r\n•L'activité sexuelle veut dire qu'une autre personne a eu contact avec vos organes génitaux . Le contact  peut étre avec les doigts, la bouche ou les organes génitaux.\r\n[[Lignes directrices Ontario 2025; https://www.cancercareontario.ca/fr/guidelines-advice/cancer-continuum/screening/hpv-hub]]\r\nPour les patients:\r\n[[Que savoir sur le dépistage du cancer du col de l'utérus; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-FR.pdf]]\r\n(<Faciliter l'examen avec spéculum>)\r\n• Le patient peut appliquer une gelée de lidocaïne topique à 2 % par voie vaginale  10 à 30 minutes avant l'intervention. Dans certaines provinces le patient peut se le procurer à la pharmacie sans Rx, en demandant au pharmacien (gardé derrière le comptoir)\r\n• Le patient voudra peut-être amener une personne pour son support\r\n• Utiliser un speculum pédiatrique, le patient voudra peut-être l'insérer lui-même.",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 150
