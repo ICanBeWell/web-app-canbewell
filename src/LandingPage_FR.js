@@ -103,7 +103,7 @@ class LandingPageFR extends React.Component {
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="fr-reliable-resource-statement"
               >
-                VOS RESSOURCES POUR LE BIEN-ÊTRE ET LA PRÉVENTION
+                VOS RESSOURCES CANADIENNES POUR LE BIEN-ÊTRE ET LA PRÉVENTION
               </div>
 
               <div className="flex_btn">

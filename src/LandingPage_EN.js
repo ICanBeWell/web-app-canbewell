@@ -95,7 +95,7 @@ class LandingPageEN extends React.Component {
                 className="landing-notice-privacystmnt font-subHeading text-white"
                 test-id="en-reliable-resource-statement"
               >
-                DISCOVER RESOURCES FOR WELL-BEING AND PREVENTION
+                DISCOVER CANADIAN RESOURCES FOR WELL-BEING AND PREVENTION
               </div>
 
               <div className="flex_btn">
