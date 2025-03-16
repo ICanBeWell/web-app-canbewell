@@ -29,12 +29,12 @@ class LandingPageEN extends React.Component {
   }
   handleChange() {
     this.setState({ language: "english" });
-    sessionStorage.setItem("firstVisit", "false");
+    // document.cookie = "firstVisit=false; path=/; SameSite=Lax";
     localStorage.setItem("app_language", this.state.language);
   }
   handleChange2() {
     this.setState({ language: "french" });
-    sessionStorage.setItem("firstVisit", "false");
+    // document.cookie = "firstVisit=false; path=/; SameSite=Lax";
     localStorage.setItem("app_language", this.state.language);
   }
   handleHomePage() {

@@ -36,13 +36,13 @@ class LandingPageFR extends React.Component {
   handleChange() {
     this.setState({ language: "english" });
     localStorage.setItem("app_language", this.state.language);
-    sessionStorage.setItem("firstVisit", "false");
+    // document.cookie = "firstVisit=false; path=/; SameSite=Lax";
 
     //return (<App app_language={this.state.language} />)
   }
   handleChange2() {
     this.setState({ language: "french" });
-    sessionStorage.setItem("firstVisit", "false");
+    // document.cookie = "firstVisit=false; path=/; SameSite=Lax";
     localStorage.setItem("app_language", this.state.language);
   }
   handleHomePage() {

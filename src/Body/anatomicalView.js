@@ -153,10 +153,17 @@ class Anatomy extends React.Component {
       });
     }
   }
-  3;
   toggleModal = () => {
-    if (sessionStorage.getItem("firstVisit") != "true") {
-      sessionStorage.setItem("firstVisit", "true");
+    function getCookie(name) {
+      let cookies = document.cookie.split("; ");
+      for (let cookie of cookies) {
+        let [key, value] = cookie.split("=");
+        if (key === name) return value;
+      }
+      return null;
+    }
+    if (getCookie("firstVisit") !== "true") {
+      document.cookie = "firstVisit=true; path=/; SameSite=Lax";
       this.setState({ feedbackDialog: true });
     }
     this.setState({
@@ -166,11 +173,11 @@ class Anatomy extends React.Component {
 
   handleFeedBackToggle = (type) => {
     if (type === "agree") {
-      sessionStorage.setItem("firstVisit", "true");
       const finalLink =
         this.props.language === "french" ? frenchForm : englishForm;
       window.open(finalLink, "_blank");
     }
+    document.cookie = "firstVisit=true; path=/; SameSite=Lax";
     this.setState({ feedbackDialog: !this.state.feedbackDialog });
   };
 

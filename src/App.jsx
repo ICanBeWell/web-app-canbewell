@@ -187,11 +187,11 @@ class App extends Component {
 
   handleFeedBackToggle = (type) => {
     if (type === "agree") {
-      sessionStorage.setItem("firstVisit", "true");
       const finalLink =
         this.state.language === "french" ? frenchForm : englishForm;
       window.open(finalLink, "_blank");
     }
+    document.cookie = "firstVisit=true; path=/; SameSite=Lax";
     this.setState({ feedbackDialog: !this.state.feedbackDialog });
   };
 
