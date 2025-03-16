@@ -153,7 +153,7 @@ class LandingPageFR extends React.Component {
                   >
                     <PlayArrowIcon fontSize="large" />
                     <p>
-                      Conseils si vous n’avez pas de médecin de famille ou
+                      Si vous n’avez pas de médecin de famille ou
                       infirmière praticienne
                     </p>
                   </a>
