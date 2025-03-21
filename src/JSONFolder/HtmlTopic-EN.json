@@ -133,7 +133,7 @@
     "Button": "Bone",
     "Topic heading": "Bone Health",
     "Subject": "Resources",
-    "General Patient Text": "•\tFor more information about osteoporosis [[click here; https://strwebstgmedia.blob.core.windows.net/media/libmnjci/transgender-people-and-osteoporosis-fact-sheet-march-2018.pdf]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "General Patient Text": "•\tFor more information about osteoporosis [[click here; https://strwebstgmedia.blob.core.windows.net/media/libmnjci/transgender-people-and-osteoporosis-fact-sheet-march-2018.pdf]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Health Provider Text": "n/a",
     "Gender": "tm",
     "Minimum age": 18,
@@ -144,7 +144,7 @@
     "Topic heading": "Bone Health",
     "Subject": "Tips and Resources",
     "General Patient Text": "n/a",
-    "Health Provider Text": "•\tWhen assessing for osteoporosis, consider assessing risk using an average of the results obtained using both a female and male calculator [[risk calculator; https://www.sheffield.ac.uk/FRAX/]] (TransCare BC).\r\n•\tThe ISCD suggests that the Z-score should generally be derived from comparison to the reference data of the patient’s affirmed gender for binary transgender patients (i.e. who identify as solely male or female), and to the gender assigned at birth in non-binary patients (ISCD).\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "Health Provider Text": "•\tWhen assessing for osteoporosis, consider assessing risk using an average of the results obtained using both a female and male calculator [[risk calculator; https://www.sheffield.ac.uk/FRAX/]] (TransCare BC).\r\n•\tThe ISCD suggests that the Z-score should generally be derived from comparison to the reference data of the patient’s affirmed gender for binary transgender patients (i.e. who identify as solely male or female), and to the gender assigned at birth in non-binary patients (ISCD).\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 150
@@ -222,6 +222,16 @@
   {
     "Button": "Breast",
     "Topic heading": "Breast Cancer",
+    "Subject": "Why is screening important?",
+    "General Patient Text": "If you are in a certain age group you can have screening tests which can help find breast cancer before you have symptoms.  Some cancers can be cured more easily if found early.\r\n\r\nScreening is not for people who have [[symptoms;  https://cancer.ca/en/cancer-information/cancer-types/breast/signs-and-symptoms]], for example a breast lump. In the case of symptoms, different tests are done to give a definite diagnosis.\r\n\r\nScreening is not right at every age or for everyone, find out why with:\r\n[[Canadian Cancer Society Information on Screening; https://cancer.ca/en/cancer-information/find-cancer-early/screening-for-cancer/benefits-and-limitations-of-regular-cancer-screening]]\r\n[[Pros and cons of screening from the UK: https://www.nhs.uk/conditions/nhs-screening/]]\r\n",
+    "Health Provider Text": "n/a",
+    "Gender": "f",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Breast",
+    "Topic heading": "Breast Cancer",
     "Subject": "Screening for breast cancer-Canada",
     "General Patient Text": "•(<If you have breast symptoms>) (pain, lump, discharge or other [[breast cancer symtoms; https://cancer.ca/en/cancer-information/cancer-types/breast/signs-and-symptoms]]) see your health professional as soon as possible.\r\n\r\n•(<If you have no symptoms>) or [[risks;  http://www.cancer.ca/en/cancer-information/cancer-type/breast/risks/?region=on]] you may qualify for a screening mammogram ( a mammogram that is not for symptoms, but is for  a healthy person):\r\n-(<40 to 49 years old>): \r\nDiscuss with your primary care provider the pros and cons of screening or visit your provincial or territorial website for breast screening (see [[list; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]).More information below.\r\n\r\n-(<50 to 74 years old>): \r\nMammograms are recommended every 2 years.[[List of screening programs across Canada; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-breast-cancer/how-do-i-find-a-breast-cancer-screening-program]]\r\n\r\n(<If you do not have a primary care provider>)\r\nIn most areas you can phone 811 and find where to get a mammogram.\r\n\r\n\r\n\r\n\r\n",
     "Health Provider Text": "n/a",
@@ -233,7 +243,7 @@
     "Button": "Breast",
     "Topic heading": "Breast Cancer",
     "Subject": "Screening for breast cancer-Ontario",
-    "General Patient Text": "• (<Ages 40-49:>) \r\nScreening with a mammogram is available , it is recommended to have a discussion about the pros and cons with a health care provider. [[Breast cancer screening ages 40-49: What you need to know; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening/ages-40-49-what-you-need-to-know]]\r\n•(<Ages 50-74:>)\r\nA mammogram is recommended every 2 years\r\n[[Information about the Ontario Breast Cancer Screening Program; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening]]\r\n•(<High risk screening ages 30-74 : >)\r\n[[eligibility information;https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/breast-cancer-high-risk]]\r\n•(<To make an appointment:>)\r\n Call 1-800-668-9304 \r\nTo find a location and check wait times go to [[Ontario Health-Wait Times; https://www.ontariohealth.ca/public-reporting/wait-times]]",
+    "General Patient Text": "• (<Ages 40-49:>) \r\nScreening with a mammogram is available , it is recommended to have a discussion about the pros and cons with a health care provider. [[Breast cancer screening ages 40-49: What you need to know; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening/ages-40-49-what-you-need-to-know]]\r\n•(<Ages 50-74:>)\r\nA mammogram is recommended every 2 years\r\n[[Information about the Ontario Breast Cancer Screening Program; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening]]\r\n•(<High risk screening ages 30-74 : >)\r\n[[Eligibility information; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/breast-cancer-high-risk]]\r\n•(<To make an appointment:>)\r\n Call 1-800-668-9304 \r\nTo find a location and check wait times go to [[Ontario Health-Wait Times; https://www.ontariohealth.ca/public-reporting/wait-times]]",
     "Health Provider Text": "•Starting at age 30, assess if high risk :\r\n[[Ontario High Risk Breast Cancer Screening; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/breast-cancer-high-risk]]\r\n•Ages 40-49: \r\nRecommendation is to have a shared-decision making discussion with a health care provider\r\n[[Helping people ages 40-49 decide; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/helping-people-40-49-decide-about-breast-screening]]\r\n•Ages 50-74:\r\nMammograms are recommended every 2 years\r\n[[Ontario Recommendations Summary; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/breast-screening-recommendations-summary]]",
     "Gender": "f",
     "Minimum age": 18,
@@ -283,7 +293,7 @@
     "Button": "Breast/Chest",
     "Topic heading": "Breast Cancer",
     "Subject": "Screening for breast cancer-Ontario",
-    "General Patient Text": "• If you have taken estrogen for 5 years or more and have breasts, you need regular screening mammograms depending on your age.\r\n•For ages 40 to 74 screening mammograms are available. \r\n[[Information on the Ontario program; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening]]\r\n•To make an appointment:\r\n Call 1-800-668-9304 \r\nTo find a location and check wait times go to [[Ontario Health-Wait Times; https://www.ontariohealth.ca/public-reporting/wait-times]]",
+    "General Patient Text": "• If you have taken estrogen for 5 years or more and have breasts, you need regular screening mammograms depending on your age.\r\n•For ages 40 to 74 screening mammograms are available. \r\n[[Information on the Ontario program; https://www.cancercareontario.ca/en/types-of-cancer/breast-cancer/screening]]\r\n•To make an appointment:\r\n Call 1-800-668-9304 \r\nTo find a location/wait times go to \r\n[[Ontario Health-Wait Times; https://www.ontariohealth.ca/public-reporting/wait-times]]",
     "Health Provider Text": "• Trans women and people on the transfeminine spectrum who are on feminizing hormone therapy for 5 years or more should undergo breast cancer screening as per current guidelines for cis women.\r\n• Screening mammograms are available from ages 40 to 74 in Ontario\r\n[[Ontario Breast Screening Program Guidelines; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/breast-screening-recommendations-summary]]\r\n•It is important to check with the facility doing the mammograms how they welcome gender diverse patients and how to indicate this on the requisition. This will help avoid difficult situations for the patient.",
     "Gender": "tf",
     "Minimum age": 18,
@@ -293,7 +303,7 @@
     "Button": "Breast/Chest",
     "Topic heading": "Breast Cancer",
     "Subject": "Resources",
-    "General Patient Text": "•       [[Overview of breast cancer screening for trans women in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-women-and-breast-cancer-screening/?region=on/]]\r\n•       [[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•       [[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf ]]\r\n•       [[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "General Patient Text": "•       [[Overview of breast cancer screening for trans women and non-binary people assigned male sex at birth in Canada; https://cancer.ca/en/cancer-information/find-cancer-early/screening-in-2slgbtqi-communities/trans-woman-or-nonbinary-person-assigned-male-at-birth-do-i-need-breast-cancer-screening]]\r\n•       [[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n",
     "Health Provider Text": "n/a",
     "Gender": "tf",
     "Minimum age": 18,
@@ -304,7 +314,7 @@
     "Topic heading": "Breast Cancer",
     "Subject": "Tips and Resources",
     "General Patient Text": "n/a",
-    "Health Provider Text": "\r\n•\t[[Overview of breast cancer screening for trans women in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-women-and-breast-cancer-screening/?region=bc]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "Health Provider Text": "\r\n•\t[[Overview of breast cancer screening for trans women and non-binary people assigned male sex at birth in Canada; https://cancer.ca/en/cancer-information/find-cancer-early/screening-in-2slgbtqi-communities/trans-woman-or-nonbinary-person-assigned-male-at-birth-do-i-need-breast-cancer-screening]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Gender": "tf",
     "Minimum age": 18,
     "Maximum age": 150
@@ -323,7 +333,7 @@
     "Button": "Breast/Chest",
     "Topic heading": "Chest Cancer",
     "Subject": "Resources",
-    "General Patient Text": "•\t[[Overview of breast cancer screening for trans men in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-chest-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "General Patient Text": "•\t[[Overview of chest or breast cancer screening in trans men or non-binary people assigned female at birth; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-chest-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n",
     "Health Provider Text": "n/a",
     "Gender": "tm",
     "Minimum age": 18,
@@ -334,7 +344,7 @@
     "Topic heading": "Chest Cancer",
     "Subject": "Tips and Resources",
     "General Patient Text": "n/a",
-    "Health Provider Text": "•\tBe mindful of the language you use when referring to traditionally gendered body parts, as certain words may make patients feel uncomfortable — consider following the patients lead with regards to terminology (e.g. some trans men may prefer to refer to their breasts as their “chest”).\r\n•\tNote that mastectomy typically does not involve the removal of all breast tissue, and that some may still remain in place, meaning that patients could still be at risk of breast cancer (TransCare BC). Examining the axillae is recommended\r\n•\tIf an abnormality is noted on the exam of a trans man who had a mastectomy, ultrasound +/- MRI is indicated as mammography is technically difficult or may be impossible (RHO).\r\n•\t[[Overview of breast cancer screening for trans men in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-chest-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "Health Provider Text": "•\tBe mindful of the language you use when referring to traditionally gendered body parts, as certain words may make patients feel uncomfortable — consider following the patients lead with regards to terminology (e.g. some trans men may prefer to refer to their breasts as their “chest”).\r\n•\tNote that mastectomy typically does not involve the removal of all breast tissue, and that some may still remain in place, meaning that patients could still be at risk of breast cancer (TransCare BC). Examining the axillae is recommended\r\n•\tIf an abnormality is noted on the exam of a trans man who had a mastectomy, ultrasound +/- MRI is indicated as mammography is technically difficult or may be impossible (RHO).\r\n•\t[[Overview of chest or breast cancer screening in trans men or non-binary people assigned female at birth; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-chest-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 150
@@ -362,6 +372,16 @@
   {
     "Button": "Colon",
     "Topic heading": "Colorectal Cancer",
+    "Subject": "Why is screening important?",
+    "General Patient Text": "If you are in a certain age group you can have screening tests which can help find colorectal cancer before you have symptoms.  When caught early, 9 out of 10 people with the disease can be cured. \r\n\r\nScreening is not for people who have [[symptoms;  https://cancer.ca/en/cancer-information/cancer-types/colorectal/signs-and-symptoms]].\r\nIn the case of symptoms, different tests are done to give a definite diagnosis and decide on treatment.\r\n",
+    "Health Provider Text": "n/a",
+    "Gender": "all",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Colon",
+    "Topic heading": "Colorectal Cancer",
     "Subject": "Get Screened for Bowel Cancer-Canada",
     "General Patient Text": "\r\n•(< Why?>)\r\nColorectal cancer is the second most common cause of cancer death in Canada. But when it is caught early, 9 out of 10 people with the disease can be cured.\r\n•(<How?>)\r\nAn easy test you can do at home in 5 minutes, commonly called the \"poop test\". \r\n•(<When?>)\r\nBetween ages 50 and 74 if you have no [[symptoms; https://cancer.ca/en/cancer-information/cancer-types/colorectal/signs-and-symptoms]] or if you have no family history of colon cancer. \r\n\r\n•Find your colorectal cancer screening program [[here; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-colorectal-cancer/how-do-i-find-a-colorectal-cancer-screening-program?_gl=1*rswq57*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiAq-u9BhCjARIsANLj-s1m-H8ZDjfoR8FbzNjfZL9BS2AiZJ16qPRuqw_x52M1Z5PS771o2OMaAs_gEALw_wcB]]\r\n•Colonoscopy is not recommended if you have no symptoms or no family history of colon cancer.\r\n•If you have a family history of colorectal cancer or symptoms, speak to a health care provider.\r\n\r\n[[Canadian Task Force Guideline; https://canadiantaskforce.ca/tools-resources/colorectal-cancer-for-patients-2/]]",
     "Health Provider Text": "n/a",
@@ -373,7 +393,7 @@
     "Button": "Colon",
     "Topic heading": "Colorectal Cancer",
     "Subject": "Get Screened for Bowel Cancer-Ontario",
-    "General Patient Text": "• Why?\r\nColorectal cancer is a leading cause of cancer-related disease and death in Ontario for both men and women. But when colon cancer is caught early, 9 out of 10 people with the disease can be cured.\r\n•How?\r\nAn easy test you can do at home in 5 minutes, commonly called the \"poop test\". You can ask your health care provider or phone 811 to get a kit.\r\n•When?\r\nBetween ages 50 and 74 if you have no [[symptoms; https://cancer.ca/en/cancer-information/cancer-types/colorectal/signs-and-symptoms]]\r\n•[[Ontario Colorectal Cancer Screening Recommendations Summary; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/resources-healthcare-providers/colorectal-cancer-screening-summary]]",
+    "General Patient Text": "• (<Why?>)\r\nColorectal cancer is a leading cause of cancer-related disease and death in Ontario for both men and women. But when colon cancer is caught early, 9 out of 10 people with the disease can be cured.\r\n•(<How?>)\r\nAn easy test you can do at home in 5 minutes, commonly called the \"poop test\". You can ask your health care provider or phone 811 to get a kit.\r\n•(<When?>)\r\nBetween ages 50 and 74 if you have no [[symptoms; https://cancer.ca/en/cancer-information/cancer-types/colorectal/signs-and-symptoms]]\r\n•[[Ontario Colorectal Cancer Screening Recommendations Summary; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/resources-healthcare-providers/colorectal-cancer-screening-summary]]",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,
@@ -783,7 +803,7 @@
     "Button": "Needle in arm",
     "Topic heading": "Immunization",
     "Subject": "Get immunized",
-    "General Patient Text": "• For best information download the [[app CanImmunize; https://www.canimmunize.ca/en/home]]\r\n\r\n{{AGE 50 and over}}:\r\nThis schedule assumes the patient has  been vaccinated in childhood\r\n• (<Td>) (Tetanus-diphtheria) every 10 years\r\n• (<Tdap>)(Tetanus,diphtheria, acellular pertussis or whooping cough): once in your lifetime\r\n• (<Measles Mumps Rubella>):it is advised that  most adults should have  2 doses of this vaccine\r\n• (<Influenza>): is recommended for all adults. For high risk groups see CanImmunize app\r\n• Pneumococcal, varicella,  meningococcal are recommended for some high risk groups seeCANImmunize app\r\n• (<Shingles vaccine>): \r\nThere are 2 vaccines against shingles: Shingrix and Zostavax. These vaccines are recommended at age 50 and above, but many provinces only pay for one or the other at later ages. Check with your provider.\r\nStudies show that Shingrix lasts longer for 50 and over but you may have to pay for this asmost provinces not funding yet \r\n\r\n{{AGE 60 and over}}:\r\n•RSV : a new vaccine Arexvy is available but most provinces are not funding this. Inquire with your provider if this is useful\r\n• Vaccines against Shingles: Shingrix or Zostavax\r\nSome studies show that Shingrix is more effective.\r\n2 provinces cover the costs of  Shingrix at this time: Yukon and Ontario: for patients aged 65 to 70. Check with your health care provider as this may change and it is important to get vaccinated against shingles to prevent complications.\r\n\r\n{{AGE 65 and over}}: \r\n• (<Shingles vaccine>): get it if you have not received it yet.\r\n• (<Pneumococcal>) : Pneumococcal 23 is paid for by your province,\r\nPrevnar 20 is recomended by NACI but may not be paid by your province, check with your provider\r\n• (<Influenza yearly>)\r\n•(<RSV>) \r\n A new vaccine Arexvy is available but most provinces are not funding this. Inquire with your provider if this is useful",
+    "General Patient Text": "• For best information download the [[app CanImmunize; https://www.canimmunize.ca/en/home]]\r\n\r\n{{AGE 50 and over}}:\r\nThis schedule assumes the patient has  been vaccinated in childhood\r\n• (<Td>) (Tetanus-diphtheria) every 10 years\r\n• (<Tdap>)(Tetanus,diphtheria, acellular pertussis or whooping cough): once in your lifetime\r\n• (<Measles Mumps Rubella>):it is advised that  most adults should have  2 doses of this vaccine\r\n• (<Influenza>): is recommended for all adults. For high risk groups see CanImmunize app\r\n• Pneumococcal, varicella,  meningococcal are recommended for some high risk groups seeCANImmunize app\r\n• (<Shingles vaccine>): \r\nThere are 2 vaccines against shingles: Shingrix and Zostavax. These vaccines are recommended at age 50 and above, but many provinces only pay for one or the other at later ages. Check with your provider.\r\nStudies show that Shingrix lasts longer for 50 and over but you may have to pay for this as most provinces not funding yet \r\n\r\n{{AGE 60 and over}}:\r\n•RSV : a new vaccine Arexvy is available but most provinces are not funding this. Inquire with your provider if this is useful\r\n• Vaccines against Shingles: Shingrix or Zostavax\r\nSome studies show that Shingrix is more effective.\r\n2 provinces cover the costs of  Shingrix at this time: Yukon and Ontario: for patients aged 65 to 70. Check with your health care provider as this may change and it is important to get vaccinated against shingles to prevent complications.\r\n\r\n{{AGE 65 and over}}: \r\n• (<Shingles vaccine>): get it if you have not received it yet.\r\n• (<Pneumococcal>) : Pneumococcal 23 is paid for by your province,\r\nPrevnar 20 is recomended by NACI but may not be paid by your province, check with your provider\r\n• (<Influenza yearly>)\r\n•(<RSV>) \r\n A new vaccine Arexvy is available but most provinces are not funding this. Inquire with your provider if this is useful",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 50,
@@ -852,7 +872,7 @@
   {
     "Button": "Lung",
     "Topic heading": "Lung",
-    "Subject": "Smoking",
+    "Subject": "Smoking-Canada",
     "General Patient Text": "Recommended to quit or reduce.\r\nGet help with websites, groups, phone lines.\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n\r\n",
     "Health Provider Text": "Ask all patients about tobacco use.\r\nAdvise stopping or reducing.\r\nUse behavioral interventions.\r\nAs needed use approved pharmacotherapy to promote cessation.\r\n•\t[[USPSTF A (2013); https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/tobacco-use-in-adults-and-pregnant-women-counseling-and-interventions]]\r\n•\t[[video; https://www.youtube.com/watch?v=URiKA7CKtfc]]\r\n•Programs for patients:\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n",
     "Gender": "all",
@@ -860,7 +880,8 @@
     "Maximum age": 150
   },
   {
-    "Topic heading": "lung",
+    "Button": "Lung",
+    "Topic heading": "Lung",
     "Subject": "Smoking-Ontario",
     "General Patient Text": "Get help with websites, groups, phone lines.\r\nCall 811 or visit [[health811; https://health811.ontario.ca/static/guest/home]]\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n[[Indigenous Tobacco Program; https://tobaccowise.cancercareontario.ca/en]]",
     "Health Provider Text": "Patients can:\r\nGet help with websites, groups, phone lines.\r\nCall 811 or visit [[health811; https://health811.ontario.ca/static/guest/home]]\r\n[[Smokershelpline; http://www.smokershelpline.ca/]]\r\n[[Journeytoquit; https://lunghealth.ca/tobacco/]]\r\n[[Indigenous Tobacco Program; https://tobaccowise.cancercareontario.ca/en]]",
@@ -871,8 +892,18 @@
   {
     "Button": "Lung",
     "Topic heading": "Lung",
+    "Subject": "Why is screening important?",
+    "General Patient Text": "If you are in a certain age group, and you are at risk for lung cancer, you can have screening tests which help find cancer before you have symptoms.  Some cancers can be cured more easily if found early.\r\n\r\nScreening is not for people who have [[symptoms; https://cancer.ca/en/cancer-information/cancer-types/lung/signs-and-symptoms]]. \r\nIn the case of symptoms, different tests are done to give a definite diagnosis.\r\n\r\nScreening is not right at every age or for everyone, find out why with:\r\n[[Canadian Cancer Society Information; https://cancer.ca/en/cancer-information/find-cancer-early/screening-for-cancer/benefits-and-limitations-of-regular-cancer-screening]]\r\n[[Pros and cons of screening from the UK: https://www.nhs.uk/conditions/nhs-screening/]]",
+    "Health Provider Text": "n/a",
+    "Gender": "all",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Lung",
+    "Topic heading": "Lung",
     "Subject": "Screening for Lung Cancer-Canada",
-    "General Patient Text": "Lung cancer is the leading cause of cancer death in Canada. \r\n\r\nIf you have been smoking for many years, you may be eligible to be screened for lung cancer with a Low dose computed tomography (LDCT). Usually this is done between ages 55 and 74.\r\n\r\n[[How do I find a lung cancer screening program; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-lung-cancer/how-do-i-find-a-lung-cancer-screening-program]]\r\n\r\n\r\n",
+    "General Patient Text": "(<Why?>)\r\nLung cancer is the leading cause of cancer death in Canada. \r\n\r\n(<Who and How?>)\r\nIf you have been smoking for many years, you may be eligible to be screened for lung cancer with a low dose computed tomography (LDCT). Usually this is done between ages 55 and 74.\r\n\r\n[[How do I find a lung cancer screening program; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-lung-cancer/how-do-i-find-a-lung-cancer-screening-program]]\r\n\r\n\r\n",
     "Health Provider Text": "\"The [[CTFPHC (2016); https://canadiantaskforce.ca/guidelines/published-guidelines/lung-cancer/]]  recommends a Low dose CT (LDCT) for\r\n•\tadults aged 55-74 years, \r\n•\twith at least a 30 pack-year smoking history \r\n•\twho currently smoke or quit less than 15 years ago. \r\n•\tThey recommend annual screening with LDCT up to three consecutive time. (Weak recommendation; low quality evidence)\r\n\r\nLung cancer screening programs vary across Canada and criteria may be different from the CTFPHC.\r\n[[List by location by the Canadian Cancer Society; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-lung-cancer/how-do-i-find-a-lung-cancer-screening-program]]\r\n\r\n",
     "Gender": "all",
     "Minimum age": 18,
@@ -882,8 +913,8 @@
     "Button": "Lung",
     "Topic heading": "Lung",
     "Subject": "Screening for Lung Cancer-Ontario",
-    "General Patient Text": "•Why? \r\nLung cancer is the leading cause of cancer death in Canada \r\n•Who?\r\nAges 55 to 74 who have smoked cigarettes daily at least for 20 years (may not be 20 years in a a row). Some people may not qualify even if they fit these criteria.\r\n•How?\r\nCertain centres in Ontario offer it if you qualify. See more information on [[Ontario Lung Cancer Screening; https://www.cancercareontario.ca/en/types-of-cancer/lung/screening]] ",
-    "Health Provider Text": "•Why? \r\nLung cancer is the leading cause of cancer death in Canada \r\n•Who?\r\nAges 55 to 74 who have smoked cigarettes daily at least for 20 years (may not be 20 years in a a row). Some people may not qualify even if they fit these criteria.\r\n•How?\r\nCertain centres in Ontario offer LDCT (Low dose CT scan screening) \r\n[[Ontario Lung Cancer Screening Information for Healthcare Providers; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/lung-cancer-screening-information]]",
+    "General Patient Text": "(<Why?>)\r\nLung cancer is the leading cause of cancer death in Canada \r\n(<Who?>)\r\nAges 55 to 74 who have smoked cigarettes daily at least for 20 years (may not be 20 years in a a row). Some people may not qualify even if they fit these criteria.\r\n(<How?>)\r\nCertain centres in Ontario offer it if you qualify. See more information on [[Ontario Lung Cancer Screening; https://www.cancercareontario.ca/en/types-of-cancer/lung/screening]] ",
+    "Health Provider Text": "(<Why?>)\r\nLung cancer is the leading cause of cancer death in Canada \r\n(<Who?>)\r\nAges 55 to 74 who have smoked cigarettes daily at least for 20 years (may not be 20 years in a a row). Some people may not qualify even if they fit these criteria.\r\n(<How?>)\r\nCertain centres in Ontario offer LDCT (Low dose CT scan screening) \r\n[[Ontario Lung Cancer Screening Information for Healthcare Providers; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/lung-cancer-screening-information]]",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 74
@@ -1031,8 +1062,18 @@
   {
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
-    "Subject": "Get tested for Cervical Cancer- Canada",
-    "General Patient Text": "\r\n• (<Who should get screened?>)\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n\r\n• (<How to screen?>)\r\nSome provinces are doing Pap tests ,while some are doing HPV tests.\r\nCheck your local program [[here; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n• [[What is cervical cancer; http://www.cancer.ca/en/cancer-information/cancer-type/cervical/cervical-cancer/?region=on]]\r\n•Abbreviations:\r\nPap test: Papanicolaou test\r\nHPV test: Human papillomavirus\r\n\r\n",
+    "Subject": "Why is screening for cervical cancer important?",
+    "General Patient Text": "A screening test is a test done in a person with no symptoms to find disease such as cancerearly. The goal is to treat the cancer early. Many cancers, when treated early, have a better chance of cure. \r\nSince cervical screening was introduced in Canada there has been a decrease in cervical cancers diagnosed and deaths from this cancer.",
+    "Health Provider Text": "n/a",
+    "Gender": "all",
+    "Minimum age": 18,
+    "Maximum age": 150
+  },
+  {
+    "Button": "Genitalia",
+    "Topic heading": "Sexual and Reproductive Health",
+    "Subject": "Get Screened for Cervical Cancer-Canada",
+    "General Patient Text": "\r\n• (<Who should get screened?>)\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n\r\n• (<How to screen?>)\r\nSome provinces are doing Pap tests ,while some are doing HPV tests.\r\nCheck your local program [[here; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n•(<Find out>)[[What is cervical cancer; http://www.cancer.ca/en/cancer-information/cancer-type/cervical/cervical-cancer/?region=on]]\r\n•Abbreviations:\r\nPap test: Papanicolaou test\r\nHPV test: Human papillomavirus\r\n\r\n",
     "Health Provider Text": "n/a",
     "Gender": "f",
     "Minimum age": 18,
@@ -1041,8 +1082,8 @@
   {
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
-    "Subject": "Get tested for Cervical Cancer- Ontario",
-    "General Patient Text": "\r\n•In March 2025 , Ontario shifts from Pap tests to HPV tests. \r\n•If the HPV test is negative and you don't have a weakened immune system, you need to repeat it in 5 years.\r\n\r\n• Who should get screened?\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]",
+    "Subject": "Get Screened for Cervical Cancer-Ontario",
+    "General Patient Text": "\r\n(<Ontario shifts from Pap tests to HPV tests>)\r\n•This starts in March 2025\r\n•It is a better test to prevent cervical cancer\r\n•If the HPV test is negative and you don't have a weakened immune system, you need to repeat it in 5 years.\r\n\r\n\r\n(< Who should get screened?>)\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n[[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]",
     "Gender": "f",
     "Minimum age": 18,
     "Maximum age": 74
@@ -1072,7 +1113,7 @@
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Screening for Cervical Cancer-Ontario",
     "General Patient Text": "n/a",
-    "Health Provider Text": "\r\n•In March 2025 , Ontario will be shifting from Pap tests to HPV tests. \r\n• If the HPV test is negative and the individual does not have a weakened immune system, repeat is in 5 years.\r\n• Who should get screened?\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[Ontario HPV Implementation Resource Hub; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/hpv-hub]]\r\n•Patient handout: [[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]\r\n",
+    "Health Provider Text": "\r\n(< Ontario shifts from Pap tests to HPV tests>)\r\n•Starts March 2025 \r\n• If the HPV test is negative and the individual does not have a weakened immune system, repeat is in 5 years.\r\n\r\n(<Who should get screened?>)\r\n-anyone with a cervix, including women and gender diverse people\r\n-aged 25 to 69 \r\n-who has had sexual contact with another person (this person can be of a different gender or the same as yourself)\r\n-sexual contact includes any time another person has contact with your genitals (private parts). This can be with fingers, mouth or genitals.\r\n•[[Ontario HPV Implementation Resource Hub; https://www.cancercareontario.ca/en/guidelines-advice/cancer-continuum/screening/hpv-hub]]\r\n•Patient handout: [[What you need to know about cervical screening in Ontario; https://www.cancercareontario.ca/sites/ccocancercare/files/assets/HPV-Testing-Fact-Sheet-EN.pdf]]\r\n",
     "Gender": "f",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1111,7 +1152,7 @@
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Prevent Sexually Transmitted Infections (STIs)",
-    "General Patient Text": "•\t{{Practice safe sex}}:\r\nUse a [[condom or other protection; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html#_4.5]] \r\n[[more info; https://www.cdc.gov/teenpregnancy/pdf/Teen-Condom-Fact_Sheet-English-March-2016.pdf]]\r\n\r\n•\t{{Get tested for STIs}} \r\nIf you are sexually active ((if you have ever had oral, vaginal or anal intercourse)\r\n(<Under age 30: every year>) for chlamydia and gonorrhea\r\n(<Age 30 and above: read below>) :\r\nHow often you get tested depends on your risk.\r\nHere are some risks:\r\n if you have a new partner, multiple partners,\r\n you do not use protection, if your partner has or had an STI , for more risks see this [[link; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html#_7.0]]\r\n\r\n•(<Get tested for HIV at any age>)\r\n\r\nMore info:\r\n•\t[[Sexual activity; http://www.sexandu.ca/]]\r\n•\t[[Chlamydia and gonorrhea; https://canadiantaskforce.ca/tools-resources/chlamydia-and-gonorrhea-patient-faq/]]\r\n•     [[Booklet on STIs; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html]]\r\n•\t[[Infections; https://www.canada.ca/en/public-health/services/infectious-diseases/sexual-health-sexually-transmitted-infections/sexually-transmitted-infections-sexual-health-facts-information-public.html#geninfo]]",
+    "General Patient Text": "(<Practice safe sex>):\r\nUse a [[condom or other protection; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html#_4.5]] \r\n[[more info; https://www.cdc.gov/teenpregnancy/pdf/Teen-Condom-Fact_Sheet-English-March-2016.pdf]]\r\n\r\n(<Get tested for STIs>) \r\nIf you are sexually active ((if you have ever had oral, vaginal or anal intercourse)\r\n•(<Under age 30: every year>) for chlamydia and gonorrhea\r\n•(<Age 30 and above: read below>) :\r\nHow often you get tested depends on your risk.\r\nHere are some risks:\r\n if you have a new partner, multiple partners,\r\n you do not use protection, if your partner has or had an STI , for more risks see this [[link; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html#_7.0]]\r\n\r\n•(<Get tested for HIV at any age>)\r\n\r\nMore info:\r\n•\t[[Sexual activity; http://www.sexandu.ca/]]\r\n•\t[[Chlamydia and gonorrhea; https://canadiantaskforce.ca/tools-resources/chlamydia-and-gonorrhea-patient-faq/]]\r\n•     [[Booklet on STIs; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html]]\r\n•\t[[Infections; https://www.canada.ca/en/public-health/services/infectious-diseases/sexual-health-sexually-transmitted-infections/sexually-transmitted-infections-sexual-health-facts-information-public.html#geninfo]]",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,
@@ -1122,7 +1163,7 @@
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Prevent Sexually Transmitted Infections (STIs)",
     "General Patient Text": "n/a",
-    "Health Provider Text": "(<Safe sex and STIcounselling>) for all sexually active patients.\r\n\r\n{{Screening for STIs}}\r\n• {{Below age 30: annually}} for chlamydia and gonorrhea.\r\nAdd full STI testing if at risk, see risks below.\r\n [[CTFPHC 2021; https://canadiantaskforce.ca/guidelines/published-guidelines/chlamydia-and-gonorrhea/]]\r\n• {{Age 30 and above: according to risk}} for chlamydia and GC and other STIs, see below:\r\n•Risks: new partner, multiple partners, serial monogamous relationships, unprotected sex, substance use, sex with blood exchange, sharing sex toys, see [[link; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html#_7.0]]\r\n\r\n• {{Offer HIV testing to all}}:\r\n[[Public Health Agency of Canada recommendation; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]], supported by USPSTF 2013 and CDC, \r\n[[CTFPHC recommends only if at risk; https://canadiantaskforce.ca/guidelines/appraised-guidelines/hiv/]]",
+    "Health Provider Text": "(<Safe sex and STIcounselling>) for all sexually active patients.\r\n\r\n(<Screening for STIs>)\r\n• (<Below age 30: annually>)for chlamydia and gonorrhea.\r\nAdd full STI testing if at risk, see risks below.\r\n [[CTFPHC 2021; https://canadiantaskforce.ca/guidelines/published-guidelines/chlamydia-and-gonorrhea/]]\r\n\r\n• (<Age 30 and above: according to risk>)\r\nFor chlamydia and GC and other STIs, see below:\r\nRisks: new partner, multiple partners, serial monogamous relationships, unprotected sex, substance use, sex with blood exchange, sharing sex toys, see [[link; https://www.canada.ca/en/public-health/services/publications/diseases-conditions/booklet-sexually-transmitted-infections.html#_7.0]]\r\n\r\n• (<Offer HIV testing to all>):\r\n[[Public Health Agency of Canada recommendation; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]], supported by USPSTF 2013 and CDC, \r\n[[CTFPHC recommends only if at risk; https://canadiantaskforce.ca/guidelines/appraised-guidelines/hiv/]]",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1161,8 +1202,8 @@
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Sexual health",
-    "General Patient Text": "•\tIf you are on testosterone and have not had a hysterectomy (removal of the uterus), you need to use reliable form of birth control if there is a risk pregnancy based on your sexual practices, as testosterone can cause birth defects.\r\n•\tIf you are trying to or could become pregnant (based on your sexual practices), discuss this with your primary care provider, as taking a folic acid vitamin is important\r\n•\tCondoms are recommended for anal sex.\r\n•\tHIV testing is recommended for all Canadians at least once [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n•\tDepending on your sexual practices and history, screening for sexually transmitted infections and HIV may be recommended at different times. Discuss any concerns you may have with your primary care provider.\r\n•\tIf you have been the receptive partner during anal sex (“bottom”), your primary care provider may recommend regular anal Pap tests.\r\n•\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
-    "Health Provider Text": "•\tThose on testosterone who have not undergone hysterectomy need reliable birth control if pregnancy is a risk based on sexual activity, as testosterone is a teratogen (RHO).\r\n•\tIf pregnancy is possible based on sexual activity, follow the same folic acid recommendations as for cis women.\r\n•\tCondoms are recommended for anal sex.\r\n•\tEmphasize adequate provision of lubricants for trans women and trans men who have sex with men.\r\n•\tScreen all Canadians for HIV at least once as per [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n•\tScreen for STIs based on behavioural history and sexual practices.\r\n•\tConsider anal Pap tests every 2-3 years (or yearly in those who are HIV+) for those who have a history of receptive anal sex (RHO).\r\n•\tIn the LGBTQ+ community, the terms “bottom” and “top” are often used to describe the receptive and penetrative partners during sexual activity, respectively. The term “versatile” is used to describe someone who may alternate between these roles.\r\n\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
+    "General Patient Text": "•\tIf you are on testosterone and have not had a hysterectomy (removal of the uterus), you need to use reliable form of birth control if there is a risk pregnancy based on your sexual practices, as testosterone can cause birth defects.\r\n•\tIf you are trying to or could become pregnant (based on your sexual practices), discuss this with your primary care provider, as taking a folic acid vitamin is important\r\n•\tCondoms are recommended for anal sex.\r\n•\tHIV testing is recommended for all Canadians at least once [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n•\tDepending on your sexual practices and history, screening for sexually transmitted infections and HIV may be recommended at different times. Discuss any concerns you may have with your primary care provider.\r\n•\tIf you have been the receptive partner during anal sex (“bottom”), your primary care provider may recommend regular anal Pap tests.\r\n\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
+    "Health Provider Text": "•\tThose on testosterone who have not undergone hysterectomy need reliable birth control if pregnancy is a risk based on sexual activity, as testosterone is a teratogen (RHO).\r\n•\tIf pregnancy is possible based on sexual activity, follow the same folic acid recommendations as for cis women.\r\n•\tCondoms are recommended for anal sex.\r\n•\tEmphasize adequate provision of lubricants for trans women and trans men who have sex with men.\r\n•\tScreen all Canadians for HIV at least once as per [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n•\tScreen for STIs based on behavioural history and sexual practices.\r\n•\tConsider anal Pap tests every 2-3 years (or yearly in those who are HIV+) for those who have a history of receptive anal sex (RHO).\r\n•\tIn the LGBTQ+ community, the terms “bottom” and “top” are often used to describe the receptive and penetrative partners during sexual activity, respectively. The term “versatile” is used to describe someone who may alternate between these roles.\r\n\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1182,7 +1223,7 @@
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Screening for Cervical Cancer-Canada",
     "General Patient Text": "•\tIf you have not had surgery to remove the uterus (including the [[cervix; https://www.cancer.gov/publications/dictionaries/cancer-terms/def/cervix]]) , you need regular cervical cancer screening.\r\n•\tPap tests or HPV tests (depending on your province or territory program) are recommended regularly from age 25-69 if you have ever been sexually active.\r\nCheck your local program [[here; https://cancer.ca/en/cancer-information/find-cancer-early/get-screened-for-cervical-cancer/how-do-i-find-a-cervical-cancer-screening-program]]\r\n\r\n• [[What is cervical cancer; http://www.cancer.ca/en/cancer-information/cancer-type/cervical/cervical-cancer/?region=on]]\r\n•Abbreviations:\r\nPap test: Papanicolaou test\r\nHPV test: Human papillomavirus\r\n\r\n•\t[[Overview of cervical cancer screening for trans men in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-men-and-cervical-cancer-screening/?region=on]]\r\n",
-    "Health Provider Text": "Gender diverse people who still have a cervix should undergo cervical cancer screening as per current guidelines.\r\nPap tests, or HPV tests in certain provinces, are recommended from age 25-69 if the person has ever been sexually active.\r\n(<How to make the speculum exam easier>)\r\n• Topical 2% lidocaine jelly vaginally 10-30 min prior to the procedure (patient can buy at pharmacy in many provinces, kept behind the counter, need to ask)\r\n• The patient may want to bring someone for suport\r\n• Use a pediatric speculum, patient may want to insert themselves.\r\n\r\n(< Ensure to note the cytology requisition>) if the patient is/was on testosterone on as cervical atrophy can mimic dysplasia.\r\n\r\nOther tips:\r\n• A trial of vaginal estrogens for 1 week prior to the exam may be helpful (RHO, UCSF) but may cause gender dysphoria\r\n• Consider administering a low-dose lorazepam pre-procedurally if the patient is particularly anxious about the exam (RHO, UCSF).\r\n\r\n(<Resources>)\r\n•\t[[VIDEO: Do's and Dont's when performing  Paps with trans men; https://www.youtube.com/watch?v=KIfSjX1ZEU4]]\r\n•\t[[Tips on performing Pap tests for  trans men; https://www.rainbowhealthontario.ca/wp-content/uploads/2015/07/Tips_Paps_TransMen-1.jpg]]\r\n\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "Health Provider Text": "Gender diverse people who still have a cervix should undergo cervical cancer screening as per current guidelines.\r\nPap tests, or HPV tests in certain provinces, are recommended from age 25-69 if the person has ever been sexually active.\r\n(<How to make the speculum exam easier>)\r\n• Topical 2% lidocaine jelly vaginally 10-30 min prior to the procedure (patient can buy at pharmacy in many provinces, kept behind the counter, need to ask)\r\n• The patient may want to bring someone for suport\r\n• Use a pediatric speculum, patient may want to insert themselves.\r\n\r\n(< Ensure to note the cytology requisition>) if the patient is/was on testosterone on as cervical atrophy can mimic dysplasia.\r\n\r\nOther tips:\r\n• A trial of vaginal estrogens for 1 week prior to the exam may be helpful (RHO, UCSF) but may cause gender dysphoria\r\n• Consider administering a low-dose lorazepam pre-procedurally if the patient is particularly anxious about the exam (RHO, UCSF).\r\n\r\n(<Resources>)\r\n•\t[[VIDEO: Do's and Dont's when performing  Paps with trans men; https://www.youtube.com/watch?v=KIfSjX1ZEU4]]\r\n•\t[[Tips on performing Pap tests for  trans men; https://www.rainbowhealthontario.ca/wp-content/uploads/2015/07/Tips_Paps_TransMen-1.jpg]]\r\n\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1221,8 +1262,8 @@
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Sexual health",
-    "General Patient Text": "•  HIV testing is recommended for all Canadians at least once [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n• Depending on your sexual practices and history, screening for sexually transmitted infections and HIV may be recommended at different times.  Discuss any concerns you may have with your primary care provider.\r\n• Condoms are recommended for anal sex.\r\n• If you have been the receptive partner during anal sex (“bottom”), your primary care provider may recommend regular anal Pap tests.\r\n• If you have sex with men, have concerns about HIV prevention and would like to know more about pre- exposure prophylaxis (PrEP), discuss this with your primary care provider.\r\n\r\n• [[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n• [[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
-    "Health Provider Text": "•\tEmphasize adequate provision of lubricants for trans women and trans men who have sex with men.\r\n•\tScreen all Canadians for HIV at least once as per [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n•\tScreen for STIs based on behavioural history and sexual practices.\r\n•\tCondoms are recommended for anal sex.\r\n•\tConsider anal Pap tests every 2-3 years (or yearly in those who are HIV+) for those who have a history of receptive anal sex (RHO).\r\n•\tDaily oral pre-exposure prophylaxis (PrEP) may be considered as a possible additional intervention for trans women who have sex with men (WHO).\r\n•\tVoluntary medical circumcision (VMMC) is not recommended for HIV prevention among transgender women (WHO).       \r\n•\tIn the LGBTQ+ community, the terms “bottom” and “top” are often used to describe the receptive and penetrative partners during sexual activity, respectively. The term “versatile” is used to describe someone who may alternate between these roles.\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
+    "General Patient Text": "•  HIV testing is recommended for all Canadians at least once [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n• Depending on your sexual practices and history, screening for sexually transmitted infections and HIV may be recommended at different times.  Discuss any concerns you may have with your primary care provider.\r\n• Condoms are recommended for anal sex.\r\n• If you have been the receptive partner during anal sex (“bottom”), your primary care provider may recommend regular anal Pap tests.\r\n• If you have sex with men, have concerns about HIV prevention and would like to know more about pre- exposure prophylaxis (PrEP), discuss this with your primary care provider.\r\n\r\n• [[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n• [[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
+    "Health Provider Text": "•\tEmphasize adequate provision of lubricants for trans women and trans men who have sex with men.\r\n•\tScreen all Canadians for HIV at least once as per [[PHAC guidelines; https://www.canada.ca/en/public-health/services/hiv-aids/hiv-screening-testing-guide.html]] \r\n•\tScreen for STIs based on behavioural history and sexual practices.\r\n•\tCondoms are recommended for anal sex.\r\n•\tConsider anal Pap tests every 2-3 years (or yearly in those who are HIV+) for those who have a history of receptive anal sex (RHO).\r\n•\tDaily oral pre-exposure prophylaxis (PrEP) may be considered as a possible additional intervention for trans women who have sex with men (WHO).\r\n•\tVoluntary medical circumcision (VMMC) is not recommended for HIV prevention among transgender women (WHO).       \r\n•\tIn the LGBTQ+ community, the terms “bottom” and “top” are often used to describe the receptive and penetrative partners during sexual activity, respectively. The term “versatile” is used to describe someone who may alternate between these roles.\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/sites/transcare.ucsf.edu/files/Transgender-PGACG-6-17-16.pdf]]",
     "Gender": "tf",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1251,8 +1292,8 @@
     "Button": "Genitalia",
     "Topic heading": "Sexual and Reproductive Health",
     "Subject": "Cervical Cancer",
-    "General Patient Text": "•\tMost trans women and non-binary people on the transfeminine spectrum do not need any cervical cancer screening, regardless of whether or not they have had a vaginoplasty.\r\n•\tIn the very rare instance where you would have had a cervix created during vaginoplasty, discuss the need for Pap tests with your primary care provider.\r\n•\tIf you have had a vaginoplasty, your primary care provider may suggest yearly visual examination with a speculum.\r\n•\t[[Overview of cervical cancer screening for trans women in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-women-and-cervical-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]] (Can be the same suggestions as for cisgender patients)",
-    "Health Provider Text": "•\tTrans women and people on the transfeminine spectrum generally do not need any cervical cancer screening as vaginoplasty does not usually entail creation of a neocervix.\r\n•\tNeovagina vault testing is not recommended.\r\n•\tIn the very rare instances where a neocervix may have been created during vaginoplasty (such as from the skin of the glans penis), consider following the current cervical cancer screening guidelines for cis women (ACOG) (Pap tests are recommended every 3 years from age 21 to 69 if the person has ever been sexually active).\r\n•\tConsider annual neovaginal speculum examination to visually detect any abnormalities (including malignancy) for those who have undergone vaginoplasty (RHO).\r\n•\tNeovaginas may have a more posterior orientation than those of cis women, and using an anoscope rather than a speculum may be more appropriate for examination (UCSF).\r\n•\t[[Overview of cervical cancer screening for trans women in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-women-and-cervical-cancer-screening/?region=on]]\r\n•\t[[Tips for physical examination of trans patients; https://transcare.ucsf.edu/guidelines/physical-examination]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/wp-content/uploads/woocommerce_uploads/2019/12/Guidelines-FINAL-Dec-2019-iw2oti.pdf]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
+    "General Patient Text": "•\tMost trans women and non-binary people on the transfeminine spectrum do not need any cervical cancer screening, regardless of whether or not they have had a vaginoplasty.\r\n•\tIn the very rare instance where you would have had a cervix created during vaginoplasty, discuss the need for Pap tests with your primary care provider.\r\n•\tIf you have had a vaginoplasty, your primary care provider may suggest yearly visual examination with a speculum.\r\n•\t[[Overview of cervical cancer screening for trans women in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-women-and-cervical-cancer-screening/?region=on]]\r\n•\t[[RHO guidelines; hhttps://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]] (Can be the same suggestions as for cisgender patients)",
+    "Health Provider Text": "•\tTrans women and people on the transfeminine spectrum generally do not need any cervical cancer screening as vaginoplasty does not usually entail creation of a neocervix.\r\n•\tNeovagina vault testing is not recommended.\r\n•\tIn the very rare instances where a neocervix may have been created during vaginoplasty (such as from the skin of the glans penis), consider following the current cervical cancer screening guidelines for cis women (ACOG) (Pap tests are recommended every 3 years from age 21 to 69 if the person has ever been sexually active).\r\n•\tConsider annual neovaginal speculum examination to visually detect any abnormalities (including malignancy) for those who have undergone vaginoplasty (RHO).\r\n•\tNeovaginas may have a more posterior orientation than those of cis women, and using an anoscope rather than a speculum may be more appropriate for examination (UCSF).\r\n•\t[[Overview of cervical cancer screening for trans women in Canada; https://www.cancer.ca/en/prevention-and-screening/reduce-cancer-risk/find-cancer-early/screening-in-lgbtq-communities/trans-women-and-cervical-cancer-screening/?region=on]]\r\n•\t[[Tips for physical examination of trans patients; https://transcare.ucsf.edu/guidelines/physical-examination]]\r\n•\t[[RHO guidelines; https://www.rainbowhealthontario.ca/product/4th-edition-sherbournes-guidelines-for-gender-affirming-primary-care-with-trans-and-non-binary-patients/]]\r\n•\t[[UCSF Transcare guidelines; https://transcare.ucsf.edu/guidelines/cervical-cancer]]\r\n•\t[[Endocrine Society guidelines; https://academic.oup.com/jcem/article/102/11/3869/4157558]]",
     "Gender": "tf",
     "Minimum age": 18,
     "Maximum age": 150
@@ -1281,14 +1322,14 @@
     "Button": "Eye",
     "Topic heading": "Vision",
     "Subject": "Protect your vision",
-    "General Patient Text": "Some people have a higher risk of vision problems: for example people of african-american origin and those with diabetes or hypertension .\r\nDiscuss with your primary care provider if you need an eye exam or see an optometrist. \r\nMore information:\r\nThe following guidelines may be different than others, discuss with your provider:[[Eye exams guidelines from the Canada Association of Optometry; https://opto.ca/eye-health-library/eye-exam]]\r\n\r\nRefugee and Immigrants free vision services (and glasses) within the first year via the [[ Interim Federal Health Program; https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees/help-within-canada/health-care/interim-federal-health-program/coverage-summary.html]]\r\n\r\nFirst Nations and Inuit via the [[Non Insured Health Benefit program; https://www.sac-isc.gc.ca/eng/1574179499096/1574179544527]]\r\n\r\nOHIP coverage (only in Ontario, scroll to Optometry section): [[Ontario; https://www.ontario.ca/page/what-ohip-covers]]\r\nRAMQ Coverage [[Quebec; https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/optometric-services]]\r\n\r\n[[Resources for Sunglasses; https://www.canada.ca/en/health-canada/services/sun-safety/sunglasses.html]]\r\n\r\nTips for desk work from the CNIB (see Computer Vision Syndrome section)[[CNIB; https://www.cnib.ca/en/dry-eye?region=on]]",
+    "General Patient Text": "Some people have a higher risk of vision problems: for example people of African-American origin and those with diabetes or hypertension .\r\nDiscuss with your primary care provider if you need an eye exam or see an optometrist. \r\nMore information:\r\nThe following guidelines may be different than others, discuss with your provider:[[Eye exams guidelines from the Canada Association of Optometry; https://opto.ca/eye-health-library/eye-exam]]\r\n\r\nRefugee and Immigrants free vision services (and glasses) within the first year via the [[ Interim Federal Health Program; https://www.canada.ca/en/immigration-refugees-citizenship/services/refugees/help-within-canada/health-care/interim-federal-health-program/coverage-summary.html]]\r\n\r\nFirst Nations and Inuit via the [[Non Insured Health Benefit program; https://www.sac-isc.gc.ca/eng/1574179499096/1574179544527]]\r\n\r\nOHIP coverage (only in Ontario, scroll to Optometry section): [[Ontario; https://www.ontario.ca/page/what-ohip-covers]]\r\nRAMQ Coverage [[Quebec; https://www.ramq.gouv.qc.ca/en/citizens/health-insurance/optometric-services]]\r\n\r\n[[Resources for Sunglasses; https://www.canada.ca/en/health-canada/services/sun-safety/sunglasses.html]]\r\n\r\nTips for desk work from the CNIB (see Computer Vision Syndrome section)[[CNIB; https://www.cnib.ca/en/dry-eye?region=on]]",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,
     "Maximum age": 150
   },
   {
-    "Button": "braingear",
+    "Button": "Braingear",
     "Topic heading": "Mental Health",
     "Subject": "General ",
     "General Patient Text": "Taking care of your mental health is as important as taking care of your physical health. Maintaining a healthy diet, being physically active and getting enough sleep helps reduce stress, improves concentration and mood. ",
@@ -1298,7 +1339,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "braingear",
+    "Button": "Braingear",
     "Topic heading": "Mental Health",
     "Subject": "Suicide prevention and other support",
     "General Patient Text": "• Crisis Suicide hotline: Dial or Text 988 from anywhere in Canada for yourself or someone you are worried about. \r\n• A safe place to talk  [[Crisis Services Canada ; https://www.crisisservicescanada.ca/en/]]\r\n• Find resources at the  [[Canadian Association for Suicide Prevention; https://suicideprevention.ca/resources/]]\r\n• Get more [[free help with mental health; https://www.wellnesstogether.ca/en-CA]]",
@@ -1308,7 +1349,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "braingear",
+    "Button": "Braingear",
     "Topic heading": "Mental Health",
     "Subject": "Indigenous people",
     "General Patient Text": "• [[Hope for wellness; https://www.hopeforwellness.ca/]] provides immediate non-judgemental, culturally competent, trauma-informed emotional support, crisis intervention, or referrals to community-based services. Call 1-855-242-3310 or go to their website for chat services.\r\n• Find [[Information on federal government programs; https://www.sac-isc.gc.ca/eng/1576089278958/1576089333975]]",
@@ -1318,7 +1359,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "braingear",
+    "Button": "Braingear",
     "Topic heading": "Mental Health",
     "Subject": "Free resources to practice mindfulness",
     "General Patient Text": "•\t[[Mindshift; https://www.anxietycanada.com/resources/mindshift-cbt]]; to build skills for managing anxiety and depression\r\n•\t[[Headspace; https://www.headspace.com/mindfulness]]\r\n•\t[[Insight timer; https://insighttimer.com/]]",
@@ -1328,7 +1369,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "braingear",
+    "Button": "Braingear",
     "Topic heading": "Mental Health",
     "Subject": "Guidelines",
     "General Patient Text": "N/A",
@@ -1338,7 +1379,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "braingear",
+    "Button": "Braingear",
     "Topic heading": "Mental Health",
     "Subject": "Resources",
     "General Patient Text": "N/A",
@@ -1348,7 +1389,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "bp",
+    "Button": "Bp",
     "Topic heading": "Blood Pressure",
     "Subject": "Get your blood pressure checked",
     "General Patient Text": "•\tDuring your visit with your health care provider, ask for a measurement of your blood pressure. \r\nA normal blood pressure is under 140/90 mmHg or lower for some people .\r\n•\tThe target blood pressure depends on factors like age and health conditions, and where readings are being taken. \r\n•\tIf you have diabetes, kidney disease or other health conditions, speak to your health care professional about your target blood pressure. \r\n\r\n•\t[[How to appropriately measure your blood pressure at home; https://hypertension.ca/wp-content/uploads/2020/03/BPM-Postcard-Front.jpg]]\r\n•\t[[Understanding and Managing Your Blood Pressure; https://guidelines.hypertension.ca/wp-content/uploads/2022/09/HTC_Brochure_UnderstandingBP_2018_R3.pdf]]\r\n\r\n\r\n\r\n",
@@ -1358,7 +1399,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "bp",
+    "Button": "Bp",
     "Topic heading": "Blood Pressure",
     "Subject": "Guidelines",
     "General Patient Text": "n/a",
@@ -1368,7 +1409,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "money",
+    "Button": "Money",
     "Topic heading": "Money Issues",
     "Subject": "Food",
     "General Patient Text": "If you have trouble getting food :\r\nClick on [[211.ca; https://211.ca]] or phone/text 211\r\nChoose your province or territory \r\nEnter your location by postal code or city/town \r\nChoose the topic: food \r\nYou can find food banks near you or meals.\r\n(<If you are having trouble online: call 211 and someone will help you find what you need.>)\r\n",
@@ -1378,7 +1419,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "money",
+    "Button": "Money",
     "Topic heading": "Money Issues",
     "Subject": "Housing",
     "General Patient Text": "If you have trouble with housing :\r\nClick on [[211.ca; https://211.ca]] or phone/text 211\r\nChoose  your province or territory\r\nEnter your location by postal code or city/town \r\nChoose the topic housing.\r\n(<If you are having trouble online: call 211 and someone will help you find what you need.>)\r\n",
@@ -1388,7 +1429,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "money",
+    "Button": "Money",
     "Topic heading": "Money Issues",
     "Subject": "Other ",
     "General Patient Text": "[[211.ca; https://211.ca/]] has information for many other services such as :\r\n•Financial assistance\r\n•Employment/Training and more\r\n(<If you are having trouble online: call and someone will help you find what you need.>)\r\n",
@@ -1398,7 +1439,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "money",
+    "Button": "Money",
     "Topic heading": "Social determinants of health",
     "Subject": "Social determinants of health",
     "General Patient Text": "n/a",
@@ -1408,7 +1449,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "sleep",
+    "Button": "Sleep",
     "Topic heading": "Sleep",
     "Subject": "Sleep ",
     "General Patient Text": "Trusted evidence-based information on sleep and sleep problems:\r\n•[[mysleepwell.ca; https://mysleepwell.ca/]]\r\n•[[ementalhealth.ca; https://www.ementalhealth.ca/index.php?m=headingInfoSheets&ID=189]]\r\n•[[A good night's sleep; https://www.camh.ca/-/media/health-info-files/covid-19-2023/covid19-booklet-good-nights-sleep-pdf.pdf]]\r\n•[[Sleep and electronics; https://www.ementalhealth.ca/Ottawa-Carleton/Sleep-Problems-Try-Cutting-Back-on-Your-Blue-Light/index.php?m=article&ID=62333]]\r\n•[[HealthlinkBC; https://www.healthlinkbc.ca/illnesses-conditions/fatigue-and-sleep/insomnia]]\r\n",
