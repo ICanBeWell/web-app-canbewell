@@ -163,7 +163,9 @@ class Anatomy extends React.Component {
       return null;
     }
     if (getCookie("firstVisit") !== "true") {
-      document.cookie = "firstVisit=true; path=/; SameSite=Lax";
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+      document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
       this.setState({ feedbackDialog: true });
     }
     this.setState({
@@ -177,7 +179,9 @@ class Anatomy extends React.Component {
         this.props.language === "french" ? frenchForm : englishForm;
       window.open(finalLink, "_blank");
     }
-    document.cookie = "firstVisit=true; path=/; SameSite=Lax";
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
     this.setState({ feedbackDialog: !this.state.feedbackDialog });
   };
 

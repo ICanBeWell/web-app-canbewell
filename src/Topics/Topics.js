@@ -124,7 +124,9 @@ class TopicRow extends React.Component {
     }
 
     if (getCookie("firstVisit") !== "true") {
-      document.cookie = "firstVisit=true; path=/; SameSite=Lax";
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+      document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
       this.setState({ feedbackDialog: true });
     }
     this.setState({
@@ -137,7 +139,9 @@ class TopicRow extends React.Component {
         this.props.language === "french" ? frenchForm : englishForm;
       window.open(finalLink, "_blank");
     }
-    document.cookie = "firstVisit=true; path=/; SameSite=Lax";
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10); // 10 years from now
+    document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
     this.setState({ feedbackDialog: !this.state.feedbackDialog });
   };
   rowClicked = (title) => {
