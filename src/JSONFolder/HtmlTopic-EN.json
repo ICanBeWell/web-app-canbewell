@@ -223,7 +223,7 @@
     "Button": "Breast",
     "Topic heading": "Breast Cancer",
     "Subject": "Why is screening important?",
-    "General Patient Text": "If you are in a certain age group you can have screening tests which can help find breast cancer before you have symptoms.  Some cancers can be cured more easily if found early.\r\n\r\nScreening is not for people who have [[symptoms;  https://cancer.ca/en/cancer-information/cancer-types/breast/signs-and-symptoms]], for example a breast lump. In the case of symptoms, different tests are done to give a definite diagnosis.\r\n\r\nScreening is not right at every age or for everyone, find out why with:\r\n[[Canadian Cancer Society Information on Screening; https://cancer.ca/en/cancer-information/find-cancer-early/screening-for-cancer/benefits-and-limitations-of-regular-cancer-screening]]\r\n[[Pros and cons of screening from the UK: https://www.nhs.uk/conditions/nhs-screening/]]\r\n",
+    "General Patient Text": "If you are in a certain age group you can have screening tests which can help find breast cancer before you have symptoms.  Some cancers can be cured more easily if found early.\r\n\r\nScreening is not for people who have [[symptoms;  https://cancer.ca/en/cancer-information/cancer-types/breast/signs-and-symptoms]], for example a breast lump. In the case of symptoms, different tests are done to give a definite diagnosis.\r\n\r\nScreening is not right at every age or for everyone, find out why with:\r\n[[Canadian Cancer Society Information on Screening; https://cancer.ca/en/cancer-information/find-cancer-early/screening-for-cancer/benefits-and-limitations-of-regular-cancer-screening]]\r\n[[Pros and cons of screening from the UK; https://www.nhs.uk/conditions/nhs-screening/]]\r\n",
     "Health Provider Text": "n/a",
     "Gender": "f",
     "Minimum age": 18,
@@ -893,7 +893,7 @@
     "Button": "Lung",
     "Topic heading": "Lung",
     "Subject": "Why is screening important?",
-    "General Patient Text": "If you are in a certain age group, and you are at risk for lung cancer, you can have screening tests which help find cancer before you have symptoms.  Some cancers can be cured more easily if found early.\r\n\r\nScreening is not for people who have [[symptoms; https://cancer.ca/en/cancer-information/cancer-types/lung/signs-and-symptoms]]. \r\nIn the case of symptoms, different tests are done to give a definite diagnosis.\r\n\r\nScreening is not right at every age or for everyone, find out why with:\r\n[[Canadian Cancer Society Information; https://cancer.ca/en/cancer-information/find-cancer-early/screening-for-cancer/benefits-and-limitations-of-regular-cancer-screening]]\r\n[[Pros and cons of screening from the UK: https://www.nhs.uk/conditions/nhs-screening/]]",
+    "General Patient Text": "If you are in a certain age group, and you are at risk for lung cancer, you can have screening tests which help find cancer before you have symptoms.  Some cancers can be cured more easily if found early.\r\n\r\nScreening is not for people who have [[symptoms; https://cancer.ca/en/cancer-information/cancer-types/lung/signs-and-symptoms]]. \r\nIn the case of symptoms, different tests are done to give a definite diagnosis.\r\n\r\nScreening is not right at every age or for everyone, find out why with:\r\n[[Canadian Cancer Society Information; https://cancer.ca/en/cancer-information/find-cancer-early/screening-for-cancer/benefits-and-limitations-of-regular-cancer-screening]]\r\n[[Pros and cons of screening from the UK; https://www.nhs.uk/conditions/nhs-screening/]]",
     "Health Provider Text": "n/a",
     "Gender": "all",
     "Minimum age": 18,
@@ -1329,7 +1329,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Braingear",
+    "Button": "braingear",
     "Topic heading": "Mental Health",
     "Subject": "General ",
     "General Patient Text": "Taking care of your mental health is as important as taking care of your physical health. Maintaining a healthy diet, being physically active and getting enough sleep helps reduce stress, improves concentration and mood. ",
@@ -1339,7 +1339,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Braingear",
+    "Button": "braingear",
     "Topic heading": "Mental Health",
     "Subject": "Suicide prevention and other support",
     "General Patient Text": "• Crisis Suicide hotline: Dial or Text 988 from anywhere in Canada for yourself or someone you are worried about. \r\n• A safe place to talk  [[Crisis Services Canada ; https://www.crisisservicescanada.ca/en/]]\r\n• Find resources at the  [[Canadian Association for Suicide Prevention; https://suicideprevention.ca/resources/]]\r\n• Get more [[free help with mental health; https://www.wellnesstogether.ca/en-CA]]",
@@ -1349,7 +1349,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Braingear",
+    "Button": "braingear",
     "Topic heading": "Mental Health",
     "Subject": "Indigenous people",
     "General Patient Text": "• [[Hope for wellness; https://www.hopeforwellness.ca/]] provides immediate non-judgemental, culturally competent, trauma-informed emotional support, crisis intervention, or referrals to community-based services. Call 1-855-242-3310 or go to their website for chat services.\r\n• Find [[Information on federal government programs; https://www.sac-isc.gc.ca/eng/1576089278958/1576089333975]]",
@@ -1359,7 +1359,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Braingear",
+    "Button": "braingear",
     "Topic heading": "Mental Health",
     "Subject": "Free resources to practice mindfulness",
     "General Patient Text": "•\t[[Mindshift; https://www.anxietycanada.com/resources/mindshift-cbt]]; to build skills for managing anxiety and depression\r\n•\t[[Headspace; https://www.headspace.com/mindfulness]]\r\n•\t[[Insight timer; https://insighttimer.com/]]",
@@ -1369,7 +1369,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Braingear",
+    "Button": "braingear",
     "Topic heading": "Mental Health",
     "Subject": "Guidelines",
     "General Patient Text": "N/A",
@@ -1379,7 +1379,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Braingear",
+    "Button": "braingear",
     "Topic heading": "Mental Health",
     "Subject": "Resources",
     "General Patient Text": "N/A",
@@ -1409,7 +1409,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Money",
+    "Button": "money",
     "Topic heading": "Money Issues",
     "Subject": "Food",
     "General Patient Text": "If you have trouble getting food :\r\nClick on [[211.ca; https://211.ca]] or phone/text 211\r\nChoose your province or territory \r\nEnter your location by postal code or city/town \r\nChoose the topic: food \r\nYou can find food banks near you or meals.\r\n(<If you are having trouble online: call 211 and someone will help you find what you need.>)\r\n",
@@ -1419,7 +1419,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Money",
+    "Button": "money",
     "Topic heading": "Money Issues",
     "Subject": "Housing",
     "General Patient Text": "If you have trouble with housing :\r\nClick on [[211.ca; https://211.ca]] or phone/text 211\r\nChoose  your province or territory\r\nEnter your location by postal code or city/town \r\nChoose the topic housing.\r\n(<If you are having trouble online: call 211 and someone will help you find what you need.>)\r\n",
@@ -1429,7 +1429,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Money",
+    "Button": "money",
     "Topic heading": "Money Issues",
     "Subject": "Other ",
     "General Patient Text": "[[211.ca; https://211.ca/]] has information for many other services such as :\r\n•Financial assistance\r\n•Employment/Training and more\r\n(<If you are having trouble online: call and someone will help you find what you need.>)\r\n",
@@ -1439,7 +1439,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Money",
+    "Button": "money",
     "Topic heading": "Social determinants of health",
     "Subject": "Social determinants of health",
     "General Patient Text": "n/a",
@@ -1449,7 +1449,7 @@
     "Maximum age": 150
   },
   {
-    "Button": "Sleep",
+    "Button": "sleep",
     "Topic heading": "Sleep",
     "Subject": "Sleep ",
     "General Patient Text": "Trusted evidence-based information on sleep and sleep problems:\r\n•[[mysleepwell.ca; https://mysleepwell.ca/]]\r\n•[[ementalhealth.ca; https://www.ementalhealth.ca/index.php?m=headingInfoSheets&ID=189]]\r\n•[[A good night's sleep; https://www.camh.ca/-/media/health-info-files/covid-19-2023/covid19-booklet-good-nights-sleep-pdf.pdf]]\r\n•[[Sleep and electronics; https://www.ementalhealth.ca/Ottawa-Carleton/Sleep-Problems-Try-Cutting-Back-on-Your-Blue-Light/index.php?m=article&ID=62333]]\r\n•[[HealthlinkBC; https://www.healthlinkbc.ca/illnesses-conditions/fatigue-and-sleep/insomnia]]\r\n",
