@@ -1,0 +1,58 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - test
+      # Uncomment for production deployment
+      # - prod
+
+jobs:
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_APPLICATION_CREDENTIALS: google-secrets.json
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: "yarn"
+
+      - name: Install Yarn and Firebase Tools
+        run: |
+          curl --compressed -o- -L https://yarnpkg.com/install.sh | bash
+          export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+          yarn global add firebase-tools
+
+      - name: Prepare JSON Folder
+        run: |
+          rm -rf ./src/JSONFolder
+          mkdir ./src/JSONFolder
+          curl -L -o ./src/JSONFolder/HtmlTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EVNx7EqF7N9OrzXSWDVmrQ8Bg2OhHmmrGBin372xt8deyg&e=WN9NS1"
+          curl -L -o ./src/JSONFolder/HtmlTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EZvusLDvXW9Np88VPvcn6aABQd-DSVHUt8y2HN6mb-SU4w&e=moJ3RA"
+          curl -L -o ./src/JSONFolder/HtmlTest-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EWKQZlkx4DxDpfn2ItP9oSgBc_suTzKuXgbx1BZloe-_BA&e=vLIJEv"
+          curl -L -o ./src/JSONFolder/HtmlTest-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXpjJ8Xc8BNInwG4FyBCcosBfjjJw801nYjqgausCkNuLQ&e=hfXFKu"
+          curl -L -o ./src/JSONFolder/FilterTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=ER_xjWsW8BdCie_Y4kFBdCQBU60tDIe4frkPj__C6HDsJQ&e=NbVPQS"
+          curl -L -o ./src/JSONFolder/FilterTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXCfclAD3ztNnB5zDrw3sngBs381yLU_cgYdN2gaWa0MOw&e=MYcIBm"
+
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Build Project
+        run: CI=false yarn build
+
+      - name: Prepare Google Application Credentials
+        shell: bash
+        run: |
+          echo '${{ secrets.DEV_GOOGLE_APPLICATION_CREDENTIALS_BASE64 }}' > base64 --decode > "google-secrets.json"
+
+      - name: Deploy to Firebase
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: firebase deploy --token "$FIREBASE_TOKEN" --non-interactive
+

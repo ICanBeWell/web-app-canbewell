@@ -114,9 +114,19 @@ class TopicRow extends React.Component {
     this.props.pageViewStateUpdater(nav, cat, time);
   };
   toggleModal = () => {
-    if (sessionStorage.getItem("firstVisit") != "true") {
-      sessionStorage.setItem("firstVisit", "true");
+    function getCookie(name) {
+      let cookies = document.cookie.split("; ");
+      for (let cookie of cookies) {
+        let [key, value] = cookie.split("=");
+        if (key === name) return value;
+      }
+      return null;
+    }
 
+    if (getCookie("firstVisit") !== "true") {
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+      document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
       this.setState({ feedbackDialog: true });
     }
     this.setState({
@@ -125,11 +135,13 @@ class TopicRow extends React.Component {
   };
   handleFeedBackToggle = (type) => {
     if (type === "agree") {
-      sessionStorage.setItem("firstVisit", "true");
       const finalLink =
         this.props.language === "french" ? frenchForm : englishForm;
       window.open(finalLink, "_blank");
     }
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10); // 10 years from now
+    document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
     this.setState({ feedbackDialog: !this.state.feedbackDialog });
   };
   rowClicked = (title) => {

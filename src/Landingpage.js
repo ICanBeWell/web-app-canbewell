@@ -19,8 +19,6 @@ const LandingPage = () => {
         <Switch>
           <Route path="/fr" component={() => <LandingPageFR openDialog={openDialog} setOpenDialog={setOpenDialog} />} />
           <Route path="/" component={() => <LandingPageEN openDialog={openDialog} setOpenDialog={setOpenDialog} />} />
-          
-
         </Switch>
       </Router>
     </>

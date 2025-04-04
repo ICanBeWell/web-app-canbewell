@@ -145,11 +145,18 @@ class App extends Component {
       clientId = tracker.get("clientId");
     });
     if (!cookies.get("userID")) {
-      cookies.set("userID", clientId, { path: "/" });
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+      cookies.set("userID", clientId, { path: "/", expires: expirationDate });
     }
 
     if (!cookies.get("sessionID")) {
-      cookies.set("sessionID", uuidv4().toString(), { path: "/" });
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+      cookies.set("sessionID", uuidv4().toString(), {
+        path: "/",
+        expires: expirationDate,
+      });
     }
     //setstate()
     this.setState({
@@ -174,7 +181,8 @@ class App extends Component {
           city: data.city,
           region: data.region,
         });
-      });
+      })
+      .catch((e) => console.error(e));
   }
 
   pageViewStateUpdater = (nav, cat, time) => {
@@ -187,11 +195,13 @@ class App extends Component {
 
   handleFeedBackToggle = (type) => {
     if (type === "agree") {
-      sessionStorage.setItem("firstVisit", "true");
       const finalLink =
         this.state.language === "french" ? frenchForm : englishForm;
       window.open(finalLink, "_blank");
     }
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    document.cookie = `firstVisit=true; path=/; SameSite=Lax; expires=${expirationDate.toUTCString()}`;
     this.setState({ feedbackDialog: !this.state.feedbackDialog });
   };
 
@@ -271,7 +281,9 @@ class App extends Component {
           document.getElementById("topic").classList = "active";
           document.getElementById("test").classList = "";
         }
-        cookies.set("_onboarded", true, { path: "/" });
+        const expirationDate = new Date();
+        expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+        cookies.set("_onboarded", true, { path: "/", expires: expirationDate });
         this.setState({
           instructionIsOpen: !this.state.instructionIsOpen,
         });
@@ -297,7 +309,9 @@ class App extends Component {
           this.state.allAgesSelected)
       ) {
         const { cookies } = this.props;
-        cookies.set("_onboarded", true, { path: "/" });
+        const expirationDate = new Date();
+        expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+        cookies.set("_onboarded", true, { path: "/", expires: expirationDate });
         this.setState({
           instructionIsOpen: !this.state.instructionIsOpen,
         });
@@ -381,7 +395,12 @@ class App extends Component {
   handleChange(event) {
     const { cookies } = this.props;
     if (event.target.value >= 18 && event.target.value <= 150) {
-      cookies.set("age", event.target.value, { path: "/" });
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+      cookies.set("age", event.target.value, {
+        path: "/",
+        expires: expirationDate,
+      });
     }
     this.setState({ age: event.target.value });
     //setAge(Number(event.target.value));
@@ -394,12 +413,15 @@ class App extends Component {
   //set all ages
   handleAllAgesSelected(event) {
     const { cookies } = this.props;
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
     cookies.set("_all_ages_selected", !this.state.allAgesSelected, {
       path: "/",
+      expires: expirationDate,
     });
 
     var allAges = !this.state.allAgesSelected ? "all ages" : "";
-    cookies.set("age", allAges, { path: "/" });
+    cookies.set("age", allAges, { path: "/", expires: expirationDate });
 
     this.setState(
       {
@@ -414,7 +436,12 @@ class App extends Component {
   //set User
   handlePatientProviderChange(event) {
     const { cookies } = this.props;
-    cookies.set("user", event.target.value, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("user", event.target.value, {
+      path: "/",
+      expires: expirationDate,
+    });
     //change disclaimer text
     if (event.target.value == "patient") {
       //document.getElementById("disclaimer").innerHTML = this.state.lang.patientDisclaimer;
@@ -422,11 +449,15 @@ class App extends Component {
 
       if (this.state.allAgesSelected) {
         const { cookies } = this.props;
+        const expirationDate = new Date();
+        expirationDate.setFullYear(expirationDate.getFullYear() + 10);
         cookies.set("_all_ages_selected", !this.state.allAgesSelected, {
           path: "/",
+          expires: expirationDate,
         });
         var allAges = "";
-        cookies.set("age", allAges, { path: "/" });
+
+        cookies.set("age", allAges, { path: "/", expires: expirationDate });
 
         this.setState(
           {
@@ -450,7 +481,12 @@ class App extends Component {
 
   handlePatientProviderChangeFromConfig(mEvent) {
     const { cookies } = this.props;
-    cookies.set("user", mEvent.target.value, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("user", mEvent.target.value, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     //setPatientProvider(mEvent.target.value);
     this.setState({
@@ -459,11 +495,14 @@ class App extends Component {
 
     if (mEvent.target.value == "patient" && this.state.allAgesSelected) {
       const { cookies } = this.props;
+      const expirationDate = new Date();
+      expirationDate.setFullYear(expirationDate.getFullYear() + 10);
       cookies.set("_all_ages_selected", !this.state.allAgesSelected, {
         path: "/",
+        expires: expirationDate,
       });
       var allAges = "";
-      cookies.set("age", allAges, { path: "/" });
+      cookies.set("age", allAges, { path: "/", expires: expirationDate });
 
       this.setState(
         {
@@ -479,7 +518,12 @@ class App extends Component {
   //set gender
   handleGenderChange(changeEvent) {
     const { cookies } = this.props;
-    cookies.set("gender", changeEvent.target.value, { path: "/" }); //curr gender //assigned sex
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("gender", changeEvent.target.value, {
+      path: "/",
+      expires: expirationDate,
+    }); //curr gender //assigned sex
 
     this.setState({
       gender: changeEvent.target.value,
@@ -488,7 +532,12 @@ class App extends Component {
 
   handleTransGenderChange(TchangeEvent) {
     const { cookies } = this.props;
-    cookies.set("Tgender", TchangeEvent.target.value, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("Tgender", TchangeEvent.target.value, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     this.setState({
       Tgender: TchangeEvent.target.value,
@@ -497,7 +546,12 @@ class App extends Component {
 
   onChangeisEstrogen(event) {
     const { cookies } = this.props;
-    cookies.set("isEstrogen", !this.state.isEstrogen, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("isEstrogen", !this.state.isEstrogen, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     this.setState({
       isEstrogen: !this.state.isEstrogen,
@@ -506,7 +560,12 @@ class App extends Component {
 
   onChangeisTestosterone(event) {
     const { cookies } = this.props;
-    cookies.set("isTestosterone  ", !this.state.isTestosterone, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("isTestosterone  ", !this.state.isTestosterone, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     this.setState({
       isTestosterone: !this.state.isTestosterone,
@@ -515,7 +574,12 @@ class App extends Component {
 
   onChangeisBreasts(event) {
     const { cookies } = this.props;
-    cookies.set("isBreasts", !this.state.isBreasts, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("isBreasts", !this.state.isBreasts, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     this.setState({
       isBreasts: !this.state.isBreasts,
@@ -524,7 +588,12 @@ class App extends Component {
 
   onChangeisVaginaCervix(event) {
     const { cookies } = this.props;
-    cookies.set("isVaginaCervix", !this.state.isVaginaCervix, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("isVaginaCervix", !this.state.isVaginaCervix, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     this.setState({
       isVaginaCervix: !this.state.isVaginaCervix,
@@ -533,7 +602,12 @@ class App extends Component {
 
   onChangeisProstate(event) {
     const { cookies } = this.props;
-    cookies.set("isProstate", !this.state.isProstate, { path: "/" });
+    const expirationDate = new Date();
+    expirationDate.setFullYear(expirationDate.getFullYear() + 10);
+    cookies.set("isProstate", !this.state.isProstate, {
+      path: "/",
+      expires: expirationDate,
+    });
 
     this.setState({
       isProstate: !this.state.isProstate,
@@ -654,6 +728,7 @@ class App extends Component {
     };
     const termsOfUseText = {
       fontFamily: "Calibri Light, sans-serif",
+      textAlign: "justify",
     };
     const termsOfUseHead = {
       fontSize: "14pt",
