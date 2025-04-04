@@ -2,14 +2,12 @@
 import React, { Component } from 'react';
 
 export default class Header extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
       sidebarOpen: false
     };
   }
-
   toggleSidebar = () => {
     this.setState({
       sidebarOpen: !this.state.sidebarOpen

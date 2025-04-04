@@ -3,9 +3,9 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - test
+      # - test
       # Uncomment for production deployment
-      # - prod
+      - master
 
 jobs:
   build_and_deploy:
@@ -33,12 +33,12 @@ jobs:
         run: |
           rm -rf ./src/JSONFolder
           mkdir ./src/JSONFolder
-          curl -L -o ./src/JSONFolder/HtmlTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EVNx7EqF7N9OrzXSWDVmrQ8Bg2OhHmmrGBin372xt8deyg&e=WN9NS1"
-          curl -L -o ./src/JSONFolder/HtmlTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EZvusLDvXW9Np88VPvcn6aABQd-DSVHUt8y2HN6mb-SU4w&e=moJ3RA"
-          curl -L -o ./src/JSONFolder/HtmlTest-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EWKQZlkx4DxDpfn2ItP9oSgBc_suTzKuXgbx1BZloe-_BA&e=vLIJEv"
-          curl -L -o ./src/JSONFolder/HtmlTest-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXpjJ8Xc8BNInwG4FyBCcosBfjjJw801nYjqgausCkNuLQ&e=hfXFKu"
-          curl -L -o ./src/JSONFolder/FilterTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=ER_xjWsW8BdCie_Y4kFBdCQBU60tDIe4frkPj__C6HDsJQ&e=NbVPQS"
-          curl -L -o ./src/JSONFolder/FilterTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXCfclAD3ztNnB5zDrw3sngBs381yLU_cgYdN2gaWa0MOw&e=MYcIBm"
+          curl -L -o ./src/JSONFolder/HtmlTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=Eb_0p60t8rNIkajnU6iekvoBvzG-eSLopXiPIQ4TKvHHhg&e=DD41xh"
+          curl -L -o ./src/JSONFolder/HtmlTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXzu8zd0AgFAmeJ3ClVsSEsB2aDkfFqRfDVZaqMVCjQCwg&e=f2RItQ"
+          curl -L -o ./src/JSONFolder/HtmlTest-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXuSu4nlw_lDjxEMuNX3VlABcZ-3QTQEZbwtj4HJaw1M_g&e=BqAD4F"
+          curl -L -o ./src/JSONFolder/HtmlTest-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EVn7b2mkcD5AhUYA5T6xetwBHQHKIpeWSqwLrWp4k16iqg&e=VFyBeV"
+          curl -L -o ./src/JSONFolder/FilterTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EesuEU-3d6VOlmOimE6L7IEBFwKUjpDgG-KEb6XauHDiEw&e=hpVYs7"
+          curl -L -o ./src/JSONFolder/FilterTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EdLr7PmlV2JBjlkFB-z_MP0BT0N_DVRFFIpBwcNj3IbQzQ&e=6gaj1D"
 
       - name: Install Dependencies
         run: yarn install
