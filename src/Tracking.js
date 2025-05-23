@@ -160,7 +160,7 @@ export const GaUserEvent = (currNav, currCat, userInfo, timeDiff, preTime, currT
   GaEvent(eventCatagory, eventAction, eventLabel);
 
   if (userInfo.preCat != null) {
-    writeClick(label, currTime);
+    // writeClick(label, currTime);
     var preLabel = {
       navigation: userInfo.preNav,
       userid: userInfo.userID,
@@ -186,7 +186,7 @@ export const GaUserEvent = (currNav, currCat, userInfo, timeDiff, preTime, currT
   }
   else {
 
-    writeClick(label, currTime);
+    // writeClick(label, currTime);
   }
 };
 
