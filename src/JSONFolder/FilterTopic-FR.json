@@ -128,13 +128,13 @@
   {
     "Topic heading": "Maladie cardiaque",
     "Gender": "f",
-    "Minimum age": 40,
+    "Minimum age": 20,
     "Maximum age": 150
   },
   {
     "Topic heading": "Maladie cardiaque",
     "Gender": "tm",
-    "Minimum age": 40,
+    "Minimum age": 20,
     "Maximum age": 150
   },
   {
@@ -170,13 +170,13 @@
   {
     "Topic heading": "Cancer du sein",
     "Gender": "f",
-    "Minimum age": 40,
+    "Minimum age": 20,
     "Maximum age": 150
   },
   {
     "Topic heading": "Cancer du sein",
     "Gender": "tf",
-    "Minimum age": 50,
+    "Minimum age": 20,
     "Maximum age": 150
   },
   {
@@ -282,25 +282,25 @@
     "Maximum age": 74
   },
   {
-    "Topic heading": "Foie/Alcool/Drogues",
+    "Topic heading": "Foie/Alcool/Substances",
     "Gender": "m",
     "Minimum age": 18,
     "Maximum age": 49
   },
   {
-    "Topic heading": "Foie/Alcool/Drogues",
+    "Topic heading": "Foie/Alcool/Substances",
     "Gender": "f",
     "Minimum age": 18,
     "Maximum age": 49
   },
   {
-    "Topic heading": "Foie/Alcool/Drogues",
+    "Topic heading": "Foie/Alcool/Substances",
     "Gender": "tm",
     "Minimum age": 18,
     "Maximum age": 49
   },
   {
-    "Topic heading": "Foie/Alcool/Drogues",
+    "Topic heading": "Foie/Alcool/Substances",
     "Gender": "tf",
     "Minimum age": 18,
     "Maximum age": 49
@@ -482,25 +482,25 @@
   {
     "Topic heading": "COVID-19",
     "Gender": "m",
-    "Minimum age": 18,
+    "Minimum age": 149,
     "Maximum age": 150
   },
   {
     "Topic heading": "COVID-19",
     "Gender": "f",
-    "Minimum age": 18,
+    "Minimum age": 149,
     "Maximum age": 150
   },
   {
     "Topic heading": "COVID-19",
     "Gender": "tm",
-    "Minimum age": 18,
+    "Minimum age": 149,
     "Maximum age": 150
   },
   {
     "Topic heading": "COVID-19",
     "Gender": "tf",
-    "Minimum age": 18,
+    "Minimum age": 149,
     "Maximum age": 150
   },
   {
