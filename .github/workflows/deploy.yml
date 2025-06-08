@@ -33,8 +33,8 @@ jobs:
         run: |
           rm -rf ./src/JSONFolder
           mkdir ./src/JSONFolder
-          curl -L -o ./src/JSONFolder/HtmlTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=Eb_0p60t8rNIkajnU6iekvoBvzG-eSLopXiPIQ4TKvHHhg&e=DD41xh"
-          curl -L -o ./src/JSONFolder/HtmlTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXzu8zd0AgFAmeJ3ClVsSEsB2aDkfFqRfDVZaqMVCjQCwg&e=f2RItQ"
+          curl -L -o ./src/JSONFolder/HtmlTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EdffKbqIEx1Dm0ZdNNszHjUBGw7frv7K99Y5oqByzFgofQ&e=AbL5Wa"
+          curl -L -o ./src/JSONFolder/HtmlTopic-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=ETHjYvHwHwxBqsCyzw7VSVYBv2_DZ7vB8alVozWcrmdZQA&e=2pG1XB"
           curl -L -o ./src/JSONFolder/HtmlTest-FR.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EXuSu4nlw_lDjxEMuNX3VlABcZ-3QTQEZbwtj4HJaw1M_g&e=BqAD4F"
           curl -L -o ./src/JSONFolder/HtmlTest-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EVn7b2mkcD5AhUYA5T6xetwBHQHKIpeWSqwLrWp4k16iqg&e=VFyBeV"
           curl -L -o ./src/JSONFolder/FilterTopic-EN.json "https://uottawa-my.sharepoint.com/personal/pnikb070_uottawa_ca/_layouts/15/download.aspx?share=EesuEU-3d6VOlmOimE6L7IEBFwKUjpDgG-KEb6XauHDiEw&e=hpVYs7"

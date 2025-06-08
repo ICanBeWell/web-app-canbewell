@@ -30,7 +30,6 @@ function extractLinks(data) {
       }
     });
   });
-
   return links;
 }
 
