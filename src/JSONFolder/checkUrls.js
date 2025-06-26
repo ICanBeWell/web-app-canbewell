@@ -52,6 +52,8 @@ async function isLinkWorking(url) {
   }
 }
 
+
+
 // Function to process multiple JSON files
 async function processFiles(filePaths) {
   let allLinksObject = [];
